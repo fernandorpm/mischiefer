@@ -16,7 +16,7 @@ else MakeItLight();
 const switchers = document.getElementsByClassName('switch');
 for (let i = 0; i < switchers.length; i++) {
   let switcher = switchers[i];
-  switcher.addEventListener("click", Equilibrium);
+  switcher.addEventListener("click", CauseMischief);
 }
 
 function CauseMischief() {
