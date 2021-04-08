@@ -1,7 +1,7 @@
 # Mischiefer
 > A free and lightweight CSS framework with inbuilt light and dark theme! Let's cause some mischiefs!
 
-# Usage
+# Installation
 Mischiefer can be imported into your project in different ways.
 
 1. Import the CSS and the JS files into your HTML files, using the [jsdelivr](https://www.jsdelivr.com/) link:

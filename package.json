@@ -1,6 +1,6 @@
 {
   "name": "mischiefer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight CSS Framework with inbuilt light and dark theme. Let's cause some mischiefs!",
   "main": "mischiefer.js",
   "scripts": {
@@ -19,10 +19,17 @@
     "mischief",
     "mischiefer"
   ],
-  "author": "Fernando Marques",
+  "author": "Fernando Marques & Arthur Borges",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fernandorpm/mischiefer/issues"
   },
-  "homepage": "https://github.com/fernandorpm/mischiefer#readme"
+  "homepage": "https://github.com/fernandorpm/mischiefer#readme",
+  "files": [
+    "css",
+    "scss",
+    "js",
+    "LICENSE",
+    "README.md"
+  ]
 }
