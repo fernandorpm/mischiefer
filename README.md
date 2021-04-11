@@ -55,7 +55,3 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-
-____________________________
-temp
