@@ -168,6 +168,13 @@ p {
   }
 }
 
+@for $i from 1 to length($all-colors) {
+  $name: unquote(nth($all-colors-name, $i));
+  .text-color-#{$name} {
+    color: nth($all-colors, $i) !important;
+  }
+}
+
 .text-subtitle {
   color: $light5;
   font-weight: $bold;
@@ -227,7 +234,7 @@ p {
   justify-content: space-evenly;
 }
 
-.flex-container > * {
+.flex-item {
   padding: 0.5rem;
   flex: 0 0 auto;
 }

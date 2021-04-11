@@ -124,7 +124,10 @@ function MakeItLight() {
 
   document.body.style.backgroundColor = light2;
 
-  document.cookie = "equilibrium=light;SameSite=None;Secure";
+  let d = new Date();
+  d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
+
+  document.cookie = "equilibrium=light;expires="+ d +";SameSite=None;Secure";
 }
 
 // MAKE IT DARK ===================================================================
@@ -141,7 +144,7 @@ function MakeItDark() {
   // Text Color
   SetTextColor(light3, 'text-color-1');
   SetTextColor(light4, 'text-color-2');
-  SetTextColor(light5, 'text-color-3');
+  SetTextColor(light5, 'text-color-3');  
 
   // Mischiefer Logo
   AddClass('mischiefer-face-dark', 'mischiefer-face');
@@ -225,7 +228,10 @@ function MakeItDark() {
 
   document.body.style.backgroundColor = dark2;
 
-  document.cookie = "equilibrium=dark;SameSite=None;Secure";
+  let d = new Date();
+  d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
+
+  document.cookie = "equilibrium=dark;expires="+ d +";SameSite=None;Secure";
 }
 
 // DEFAULT FUNCTIONS ==============================================================
