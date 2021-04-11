@@ -1,5 +1,5 @@
 # Mischiefer
-> A free and lightweight CSS framework with inbuilt light and dark theme! Let's cause some mischiefs!
+> A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischiefs!
 
 ## Installation
 Mischiefer can be imported into your project in different ways, but in most cases, it will follow the regular HTML structure:

@@ -1,7 +1,7 @@
 {
   "name": "mischiefer",
   "version": "0.1.1",
-  "description": "A lightweight CSS Framework with inbuilt light and dark theme. Let's cause some mischiefs!",
+  "description": "A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischiefs!",
   "main": "mischiefer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,13 +11,13 @@
     "url": "git+https://github.com/fernandorpm/mischiefer.git"
   },
   "keywords": [
+    "front-end",
     "css",
     "style",
     "framework",
     "light",
     "dark",
-    "mischief",
-    "mischiefer"
+    "responsive"
   ],
   "author": "Fernando Marques & Arthur Borges",
   "license": "ISC",

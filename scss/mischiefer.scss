@@ -40,7 +40,7 @@ $dark1: #37374f;
 $dark2: #2f2f40;
 $dark3: #474763;
 $dark4: #5d5d7a;
-$dark5: #787897;
+$dark5: #adafc3;
 
 $dark-colors: $dark1, $dark2, $dark3, $dark4, $dark5;
 
@@ -52,6 +52,7 @@ $salmon: #fa8072;
 $red: #e34646;
 $reverse: #474763;
 
+$mono-colors: $dark3, $dark4, $dark5;
 $all-colors: $purple, $blue, $green, $yellow, $salmon, $red, $reverse;
 $all-colors-dark: #9470f5, #4795d4, #3faa75, #d69927, #e66759, #be4040, $dark4;
 $all-colors-low-opacity: rgba(96, 67, 177, 0.2), rgba(81, 173, 248, 0.2), rgba(59, 207, 133, 0.2),
@@ -160,6 +161,12 @@ p {
 }
 
 // Colors
+
+@for $i from 1 to length($mono-colors) {
+  .text-color-#{$i} {
+    color: nth($mono-colors, $i);
+  }
+}
 
 .text-subtitle {
   color: $light5;
@@ -785,3 +792,4 @@ $display-types: none, inline, block, inline-block, flex, grid, contents, initial
 .mx-auto {
   margin: 0 auto;
 }
+

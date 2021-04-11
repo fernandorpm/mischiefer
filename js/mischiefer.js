@@ -8,7 +8,7 @@ const dark1 = '#37374f';
 const dark2 = '#2f2f40';
 const dark3 = '#474763';
 const dark4 = '#5d5d7a';
-const dark5 = '#787897';
+const dark5 = '#adafc3';
 
 if (document.cookie.includes('equilibrium=dark')) MakeItDark();
 else MakeItLight();
@@ -30,10 +30,20 @@ function CauseMischief() {
 
 function MakeItLight() {
   SetBaseTextColor(dark4);
+
+  // Background Color
   SetBackgroundColor(light1, 'navbar');
   SetBackgroundColor(light1, 'navbar-1');
   SetBackgroundColor(light1, 'navbar-2');
   SetBackgroundColor(light1, 'navbar-3');
+
+  // Text Color
+  SetTextColor(dark3, 'text-color-1');
+  SetTextColor(dark4, 'text-color-2');
+  SetTextColor(dark5, 'text-color-3');
+
+  // Mischiefer Logo
+  RemoveClass('mischiefer-face-dark', 'mischiefer-face');
 
   // Card
   SetBackgroundColor(light1, 'card');
@@ -121,10 +131,20 @@ function MakeItLight() {
 
 function MakeItDark() {
   SetBaseTextColor(light4);
+
+  // Background Color
   SetBackgroundColor(dark1, 'navbar');
   SetBackgroundColor(dark1, 'navbar-1');
   SetBackgroundColor(dark1, 'navbar-2');
   SetBackgroundColor(dark1, 'navbar-3');
+
+  // Text Color
+  SetTextColor(light3, 'text-color-1');
+  SetTextColor(light4, 'text-color-2');
+  SetTextColor(light5, 'text-color-3');
+
+  // Mischiefer Logo
+  AddClass('mischiefer-face-dark', 'mischiefer-face');
 
   // Card
   SetBackgroundColor(dark1, 'card');
@@ -165,7 +185,7 @@ function MakeItDark() {
   SetBackgroundColor('#be4040', 'bg-color-red');
 
   // Colored Button Solid
-  SetBackgroundColor(light4, 'button-solid-reverse');
+  SetBackgroundColor(dark5, 'button-solid-reverse');
   SetTextColor(dark3, 'button-solid-reverse');
   SetBackgroundColor('#6043b1', 'button-solid-purple');
   SetTextColor(light2, 'button-solid-purple');
@@ -224,6 +244,13 @@ function RemoveClass(classRemove, className) {
   }
 }
 
+function SetDisplay(displayType, className) {
+  let all = document.getElementsByClassName(className);
+  for (let i = 0; i < all.length; i++) {
+    all[i].style.display = displayType;
+  }
+}
+
 function SetTransitionDuration(time) {
   let all = document.getElementsByTagName('*');
   for (let i = 0; i < all.length; i++) {
@@ -265,3 +292,4 @@ function SetBoxShadow(color, className) {
     all[i].style.boxShadow = '0px 4px 20px ' + color;
   }
 }
+
