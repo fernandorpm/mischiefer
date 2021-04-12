@@ -340,7 +340,7 @@ button {
   cursor: pointer;
   text-decoration: none;
   padding: 9px 17px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   color: #adafc3 !important;
   transition-duration: 0.2s !important; }
 
@@ -371,6 +371,10 @@ button {
 
 .button-empty-3 {
   padding: 21px 49px; }
+
+a:hover {
+  filter: brightness(0.6);
+  transition-duration: 0.2s !important; }
 
 .card {
   background-color: #fff; }
@@ -433,15 +437,29 @@ button {
       width: 70%;
       padding: 0; } }
 
+.navbar-container-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto; }
+
 .navbar-brand {
   text-decoration: none; }
 
-.navbar-container ul {
+.navbar-container ul,
+.navbar-container-full ul {
   list-style: none;
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
-.navbar-container li {
+.navbar-container li,
+.navbar-container-full li {
   margin-left: 0.8rem; }
+
+.navbar-container a,
+.navbar-container-full a {
+  text-decoration: none; }
 
 .box-shadow {
   box-shadow: 0px 4px 20px rgba(150, 177, 205, 0.1); }
@@ -495,48 +513,48 @@ button {
   background-color: #e34646; }
 
 .col-1 {
-  width: 8.33333%; }
+  width: 8.3333333333%; }
 
 .col-2 {
-  width: 16.66667%; }
+  width: 16.6666666667%; }
 
 .col-3 {
   width: 25%; }
 
 .col-4 {
-  width: 33.33333%; }
+  width: 33.3333333333%; }
 
 .col-5 {
-  width: 41.66667%; }
+  width: 41.6666666667%; }
 
 .col-6 {
   width: 50%; }
 
 .col-7 {
-  width: 58.33333%; }
+  width: 58.3333333333%; }
 
 .col-8 {
-  width: 66.66667%; }
+  width: 66.6666666667%; }
 
 .col-9 {
   width: 75%; }
 
 .col-10 {
-  width: 83.33333%; }
+  width: 83.3333333333%; }
 
 .col-11 {
-  width: 91.66667%; }
+  width: 91.6666666667%; }
 
 .col-12 {
   width: 100%; }
 
 @media (min-width: 600px) {
   .col-sm-1 {
-    width: 8.33333%; } }
+    width: 8.3333333333%; } }
 
 @media (min-width: 600px) {
   .col-sm-2 {
-    width: 16.66667%; } }
+    width: 16.6666666667%; } }
 
 @media (min-width: 600px) {
   .col-sm-3 {
@@ -544,11 +562,11 @@ button {
 
 @media (min-width: 600px) {
   .col-sm-4 {
-    width: 33.33333%; } }
+    width: 33.3333333333%; } }
 
 @media (min-width: 600px) {
   .col-sm-5 {
-    width: 41.66667%; } }
+    width: 41.6666666667%; } }
 
 @media (min-width: 600px) {
   .col-sm-6 {
@@ -556,11 +574,11 @@ button {
 
 @media (min-width: 600px) {
   .col-sm-7 {
-    width: 58.33333%; } }
+    width: 58.3333333333%; } }
 
 @media (min-width: 600px) {
   .col-sm-8 {
-    width: 66.66667%; } }
+    width: 66.6666666667%; } }
 
 @media (min-width: 600px) {
   .col-sm-9 {
@@ -568,11 +586,11 @@ button {
 
 @media (min-width: 600px) {
   .col-sm-10 {
-    width: 83.33333%; } }
+    width: 83.3333333333%; } }
 
 @media (min-width: 600px) {
   .col-sm-11 {
-    width: 91.66667%; } }
+    width: 91.6666666667%; } }
 
 @media (min-width: 600px) {
   .col-sm-12 {
@@ -580,11 +598,11 @@ button {
 
 @media (min-width: 900px) {
   .col-md-1 {
-    width: 8.33333%; } }
+    width: 8.3333333333%; } }
 
 @media (min-width: 900px) {
   .col-md-2 {
-    width: 16.66667%; } }
+    width: 16.6666666667%; } }
 
 @media (min-width: 900px) {
   .col-md-3 {
@@ -592,11 +610,11 @@ button {
 
 @media (min-width: 900px) {
   .col-md-4 {
-    width: 33.33333%; } }
+    width: 33.3333333333%; } }
 
 @media (min-width: 900px) {
   .col-md-5 {
-    width: 41.66667%; } }
+    width: 41.6666666667%; } }
 
 @media (min-width: 900px) {
   .col-md-6 {
@@ -604,11 +622,11 @@ button {
 
 @media (min-width: 900px) {
   .col-md-7 {
-    width: 58.33333%; } }
+    width: 58.3333333333%; } }
 
 @media (min-width: 900px) {
   .col-md-8 {
-    width: 66.66667%; } }
+    width: 66.6666666667%; } }
 
 @media (min-width: 900px) {
   .col-md-9 {
@@ -616,11 +634,11 @@ button {
 
 @media (min-width: 900px) {
   .col-md-10 {
-    width: 83.33333%; } }
+    width: 83.3333333333%; } }
 
 @media (min-width: 900px) {
   .col-md-11 {
-    width: 91.66667%; } }
+    width: 91.6666666667%; } }
 
 @media (min-width: 900px) {
   .col-md-12 {
@@ -628,11 +646,11 @@ button {
 
 @media (min-width: 1200px) {
   .col-lg-1 {
-    width: 8.33333%; } }
+    width: 8.3333333333%; } }
 
 @media (min-width: 1200px) {
   .col-lg-2 {
-    width: 16.66667%; } }
+    width: 16.6666666667%; } }
 
 @media (min-width: 1200px) {
   .col-lg-3 {
@@ -640,11 +658,11 @@ button {
 
 @media (min-width: 1200px) {
   .col-lg-4 {
-    width: 33.33333%; } }
+    width: 33.3333333333%; } }
 
 @media (min-width: 1200px) {
   .col-lg-5 {
-    width: 41.66667%; } }
+    width: 41.6666666667%; } }
 
 @media (min-width: 1200px) {
   .col-lg-6 {
@@ -652,11 +670,11 @@ button {
 
 @media (min-width: 1200px) {
   .col-lg-7 {
-    width: 58.33333%; } }
+    width: 58.3333333333%; } }
 
 @media (min-width: 1200px) {
   .col-lg-8 {
-    width: 66.66667%; } }
+    width: 66.6666666667%; } }
 
 @media (min-width: 1200px) {
   .col-lg-9 {
@@ -664,11 +682,11 @@ button {
 
 @media (min-width: 1200px) {
   .col-lg-10 {
-    width: 83.33333%; } }
+    width: 83.3333333333%; } }
 
 @media (min-width: 1200px) {
   .col-lg-11 {
-    width: 91.66667%; } }
+    width: 91.6666666667%; } }
 
 @media (min-width: 1200px) {
   .col-lg-12 {
@@ -676,11 +694,11 @@ button {
 
 @media (min-width: 1800px) {
   .col-xl-1 {
-    width: 8.33333%; } }
+    width: 8.3333333333%; } }
 
 @media (min-width: 1800px) {
   .col-xl-2 {
-    width: 16.66667%; } }
+    width: 16.6666666667%; } }
 
 @media (min-width: 1800px) {
   .col-xl-3 {
@@ -688,11 +706,11 @@ button {
 
 @media (min-width: 1800px) {
   .col-xl-4 {
-    width: 33.33333%; } }
+    width: 33.3333333333%; } }
 
 @media (min-width: 1800px) {
   .col-xl-5 {
-    width: 41.66667%; } }
+    width: 41.6666666667%; } }
 
 @media (min-width: 1800px) {
   .col-xl-6 {
@@ -700,11 +718,11 @@ button {
 
 @media (min-width: 1800px) {
   .col-xl-7 {
-    width: 58.33333%; } }
+    width: 58.3333333333%; } }
 
 @media (min-width: 1800px) {
   .col-xl-8 {
-    width: 66.66667%; } }
+    width: 66.6666666667%; } }
 
 @media (min-width: 1800px) {
   .col-xl-9 {
@@ -712,11 +730,11 @@ button {
 
 @media (min-width: 1800px) {
   .col-xl-10 {
-    width: 83.33333%; } }
+    width: 83.3333333333%; } }
 
 @media (min-width: 1800px) {
   .col-xl-11 {
-    width: 91.66667%; } }
+    width: 91.6666666667%; } }
 
 @media (min-width: 1800px) {
   .col-xl-12 {

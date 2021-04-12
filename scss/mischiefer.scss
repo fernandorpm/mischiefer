@@ -359,6 +359,13 @@ button {
   padding: 21px 49px;
 }
 
+// ANCHOR =======================================================================
+
+a:hover {
+  filter: brightness(0.6);
+  transition-duration: 0.2s !important;
+}
+
 // CARD =========================================================================
 
 .card {
@@ -436,17 +443,33 @@ button {
   }
 }
 
+.navbar-container-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .navbar-brand {
   text-decoration: none;
 }
 
-.navbar-container ul {
+.navbar-container ul,
+.navbar-container-full ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
-.navbar-container li {
+.navbar-container li,
+.navbar-container-full li {
   margin-left: 0.8rem;
+}
+
+.navbar-container a,
+.navbar-container-full a {
+  text-decoration: none;
 }
 
 // BOX-SHADOW ===================================================================
