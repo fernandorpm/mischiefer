@@ -1,5 +1,5 @@
 # Mischiefer
-> A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischiefs!
+> A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischief!
 
 ## Installation
 Mischiefer can be imported into your project in different ways, but in most cases, it will follow the regular HTML structure:
@@ -30,7 +30,7 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 - CSS: `node_modules/mischiefer/css/mischiefer.min.css`
 - JS: `node_modules/mischiefer/js/mischiefer.min.js`
 
-3. Download the mischiefer files from github and import them manually to your project:
+3. Download the mischiefer files from Github and import them manually to your project:
 - Import the files into your HTML files, passing down the directory where you added the CSS and JS files.
 
 4. Use import commands on your main CSS file: 
@@ -42,7 +42,7 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 
 ## Switch between light and dark themes
 
-Now that you have succesfully imported Mischiefer to your project, it's time to start the mess!
+Now that you have successfully imported Mischiefer to your project, it's time to start the mess!
 
 Firstly, this is how you create a Button to **switch** between light and dark theme:
 
@@ -58,7 +58,7 @@ Now, let's customize this button:
 <button class="switch button-solid-purple rounded-2">Cause Mischief!</button>
 ```
 
-- `button-solid-purple`: adds the button layout to an element, on the purple color. Other colors available are: reverse, blue, green, yellow, salmon and red.
+- `button-solid-purple`: adds the button layout to an element, on the purple color. Other colors available are reverse, blue, green, yellow, salmon, and red.
 - `rounded-2`: adds a `border-radius` of (2 * 4px) to the given element.
 
 
@@ -78,7 +78,7 @@ What if you wanted to centralize the information for better visualization? That'
 </div>
 ```
 
-Containers have a width of 70% for desktop screens, and 100% for smaller devices. But don't worry about it, for you it's just about adding the tag. Let we handle it for you :sunglasses:
+Containers have a width of 70% for desktop screens, and 100% for smaller devices. But don't worry about it, for you, it's just about adding the tag. Let us handle it for you :sunglasses:
 
 What if you wanted to change the whole background color, but still use the `container` property?
 
@@ -90,13 +90,13 @@ What if you wanted to change the whole background color, but still use the `cont
 </div>
 ```
 
-**Nesting** the tags/divs will allow you to do so. Honestly we're not sure if there's a workaround for this but this is good, right...? At least not so bad.
+**Nesting** the tags/divs will allow you to do so. Honestly, we're not sure if there's a workaround for this but this is good, right...? At least not so bad.
 
 ### Flex-Container
 
 A `flex-container` is basically the parent of any `flex-item` that you want to add automatically.
 
-By default, the `flex-container` and it's `flex-item` won't have any `shrink` or `grow` property. So, in order to change their display, you can read about **Columns** further down below.
+By default, the `flex-container` and its `flex-item` won't have any `shrink` or `grow` property. So, to change their display, you can read about **Columns** further down below.
 
 ```html
 <div class="flex-container">
@@ -116,14 +116,14 @@ You may want to have a `navbar` in your project, right? I mean, if it's free, wh
 
 There's an ideal way to use the navbar, and that is by having a combination of a parent `navbar` and a child `navbar-container`. Both of them are flex-containers, by the way.
 
-The `navbar` holds the information about the height of the navbar, the width, and is the element that you'll customize if you ever want to change the color, the border, or the box-shadow of the navbar. The `navbar` have 3 different sizes:
+The `navbar` holds the information about the height of the navbar, the width, and is the element that you'll customize if you ever want to change the color, the border, or the box-shadow of the navbar. The `navbar` has 4 different sizes:
 - `navbar`: height of 70px
 - `navbar-1`: height of 50px
 - `navbar-2`: height of 90px
 - `navbar-3`: height of 110px
 
 
-The `navbar-container` holds the information to make it's children properly work, so you can have an `ul` tag with properly displayed `li`s, and a navbar brand or whatever you want. The `navbar-container` have 2 different sizes:
+The `navbar-container` holds the information to make its children properly work, so you can have a `ul` tag with properly displayed `li`s, and a navbar brand or whatever you want. The `navbar-container` has 2 different sizes:
 - `navbar-container`: simulates the `container` width
 - `navbar-container-full`: has a width of 100%
 
@@ -148,14 +148,16 @@ If you have ever used a CSS Framework, chances are you're already familiar with 
 
 But if you're not, fear no thing, little one! We've got your back!
 
-In traditional UI/UX design, we tend to subdivide every layout in **X** parts, according to the viewports. **X** being:
+In traditional UI/UX design, we tend to subdivide every layout into **X** parts, according to the viewports. **X** being:
 - 4 for mobile
 - 8 for tablet
 - 12 for desktop
 
+#### For a better understanding of what are our viewports, please check the section Viewports/Breakpoints at the bottom.
+
 Of course that this is a subjective concept, that depends on the content that the `div` is holding. And since 12 is the highest number and is a multiple of 4 and 8, columns can be divided up to 12.
 
-**That's why columns width can range from 1 to 12, even for smaller devices.**
+**That's why column width can range from 1 to 12, even for smaller devices.**
 
 So, if you wanted a div that takes only half of the page, you could do the following:
 
@@ -165,7 +167,7 @@ So, if you wanted a div that takes only half of the page, you could do the follo
 </div>
 ```
 
-Mischiefer uses the 'mobile-first' approach, which means that the default value (`col-*`) would affect from mobile devices to desktop devices.
+Mischiefer uses the 'mobile-first' approach, which means that the default value (`col-*`) would affect mobile devices to desktop devices.
 
 But what if you wanted to occupy only half of the DESKTOP page, but all of the mobile page?
 
@@ -189,7 +191,7 @@ Would this look good on the webpage? That's not our problem!
 
 What if you want a really pretty `card`? Do you have to write it from scratch? NO! Again, we've got you, hot bum! :sunglasses:
 
-Cards are really valuable because they can be used as cards, as sections, as containers, and as whatever you neet them to be.
+Cards are really valuable because they can be used as cards, as sections, as containers, and as whatever you need them to be.
 
 If you want to really use a `card` as only a `card`, this is the best approach to do so:
 
@@ -203,11 +205,11 @@ If you want to really use a `card` as only a `card`, this is the best approach t
 </div>
 ```
 
-This way you allow your cards to be evenly-spaced without writing any line of CSS! Pretty cool right?
+This way you allow your cards to be evenly spaced without writing any line of CSS! Pretty cool right?
 
-If you notice, all of the sizing/spacing properties are on the `flex-item`, that contains the `card`. But if you wanted the `card` to have a border, a padding inside the card, or a box-shadow, you could apply these directly into the `card` div (we'll show you in a second).
+If you notice, all of the sizing/spacing properties are on the `flex-item`, that contains the `card`. But if you wanted the `card` to have a border, padding inside the card, or a box-shadow, you could apply these directly into the `card` div (we'll show you in a second).
 
-**Cards** also have it's own items: `card-title` and `card-content`, that adds padding automatically to the card and even creates a line separation!
+**Cards** also have their own items: `card-title` and `card-content`, which adds padding automatically to the card and even creates a line separation!
 
 Here, try it out:
 
@@ -227,13 +229,13 @@ Here, try it out:
 </div>
 ```
 
-Keep in mind that both `card-title` and `card-content` **are optional and holds no semantic value**.
+Keep in mind that both `card-title` and `card-content` **are optional and hold no semantic value**.
 
 ## Text Properties
 
 ### Font Family
 
-Mischiefer uses 2 font-families: Rubik, for the default text and Signika for the titles.
+Mischiefer uses 2 font families: Rubik, for the default text and Signika for the titles.
 Both of these fonts can be found at [Google Fonts](https://fonts.google.com/).
 
 Most of the text properties can be accessed by adding 'text'-'property-name-shortened'-'parameter'.
@@ -257,7 +259,7 @@ For the `font-size`:
 - `text-fs-6`: font-size of 3.5rem
 - `text-fs-7`: font-size of 4.0rem
 
-There are two properties that doesn't follow the shortened property-name:
+Two properties don't follow the shortened property name:
 
 The `font-weight`:
 - `text-regular`
@@ -276,7 +278,7 @@ And the `text-align`:
 Colors can be changed automatically between light and dark themes, as far as you use the default ones provided.
 
 ### Text
-- `text-color-1`: 1, 2, and 3 changes the text color to achromatic values (shades of grey).
+- `text-color-1`: 1, 2, and 3 change the text color to achromatic values (shades of grey).
 - `text-color-purple`: purple, blue, green, yellow, salmon, and red changes the text color to chromatic values (colorful shades).
 
 ### Button
@@ -284,16 +286,16 @@ Colors can be changed automatically between light and dark themes, as far as you
 - `button-secondary-purple`: same as the solid, but the background is semi-transparent and the text color is the solid color.
 
 ### Background
-- `bg-color-1`: 1 and 2 are the default colors of the background. 1 being the lightest and 2 being the darkest. There are colors 3, 4, and 5 as well, that can be used for different scenarios (in light theme, they become darker, and in dark theme they become lighter).
+- `bg-color-1`: 1 and 2 are the default colors of the background. 1 being the lightest and 2 being the darkest. There are colors 3, 4, and 5 as well, that can be used for different scenarios (in light theme, they become darker, and in the dark theme they become lighter).
 - `bg-color-purple`: reverse, purple, blue, green, yellow, salmon, and red changes the background color to chromatic values (colorful shades).
 
 ### Border
-- `b-color-1`: 1, 2, 3, 4 and 5 changes the border color to achromatic values (shades of grey).
+- `b-color-1`: 1, 2, 3, 4, and 5 change the border color to achromatic values (shades of grey).
 - `b-color-purple`: reverse, purple, blue, green, yellow, salmon, and red changes the border color to chromatic values (colorful shades).
 
 
 ## Viewports/Breakpoints
-> Here are the current available viewports and their breakpoints
+> Here are the currently available viewports and their breakpoints
 
 | Viewport            |  Breakpoint             |
 | ------------------- | -------------------     |

@@ -1,7 +1,7 @@
 {
   "name": "mischiefer",
   "version": "0.2.0",
-  "description": "A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischiefs!",
+  "description": "A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischief!",
   "main": "mischiefer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
