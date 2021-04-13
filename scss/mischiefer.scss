@@ -493,30 +493,6 @@ a:hover {
   }
 }
 
-.bg-color-reverse {
-  background-color: $dark3;
-}
-
-.bg-color-green {
-  background-color: #3bcf85;
-}
-
-.bg-color-blue {
-  background-color: #51adf8;
-}
-
-.bg-color-yellow {
-  background-color: #ffc14e;
-}
-
-.bg-color-salmon {
-  background-color: #fa8072;
-}
-
-.bg-color-red {
-  background-color: #e34646;
-}
-
 // SIZE =========================================================================
 
 @for $i from 1 to 13 {

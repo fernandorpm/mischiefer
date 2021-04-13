@@ -13,7 +13,7 @@ Notice that the CSS file is added inside the header, while the JS file is added 
   </head>
 
   <body>
-    <!-- Your content here -->
+    <!-- Your wonderful content here -->
     <script src="JS_PATH_HERE"></script>
   </body>
 
@@ -21,8 +21,8 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 ```
 
 1. Import the CSS and the JS files into your HTML files, using the [jsdelivr](https://www.jsdelivr.com/) link:
-- CSS: `https://cdn.jsdelivr.net/npm/mischiefer@0.1.1/css/mischiefer.min.css`
-- JS: `https://cdn.jsdelivr.net/npm/mischiefer@0.1.1/js/mischiefer.min.js`
+- CSS: `https://cdn.jsdelivr.net/npm/mischiefer@0.2.0/css/mischiefer.min.css`
+- JS: `https://cdn.jsdelivr.net/npm/mischiefer@0.2.0/js/mischiefer.min.js`
 
 2. Install the Mischiefer Package through npm:
 - `npm i mischiefer`
@@ -34,7 +34,7 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 - Import the files into your HTML files, passing down the directory where you added the CSS and JS files.
 
 4. Use import commands on your main CSS file: 
-- `@import 'https://cdn.jsdelivr.net/npm/mischiefer@0.1.1/css/mischiefer.min.css';`
+- `@import 'https://cdn.jsdelivr.net/npm/mischiefer@0.2.0/css/mischiefer.min.css';`
 
 **Important: right now the JS file cannot be imported in the same way as the CSS file. This will be changed in a near future.**
 
@@ -230,10 +230,67 @@ Here, try it out:
 Keep in mind that both `card-title` and `card-content` **are optional and holds no semantic value**.
 
 ## Text Properties
-> Under construction
+
+### Font Family
+
+Mischiefer uses 2 font-families: Rubik, for the default text and Signika for the titles.
+Both of these fonts can be found at [Google Fonts](https://fonts.google.com/).
+
+Most of the text properties can be accessed by adding 'text'-'property-name-shortened'-'parameter'.
+
+So, for the `font-family`, it is:
+- `text-ff-text` and `text-ff-title`. FF stands for Font Family.
+
+For the `line-height`:
+- `text-lh-1`: line-height of 1.0
+- `text-lh-2`: line-height of 1.2
+- `text-lh-3`: line-height of 1.5
+- `text-lh-4`: line-height of 2.0
+
+For the `font-size`:
+- `text-fs-default`: font-size of 0.9rem
+- `text-fs-1`: font-size of 1.0rem
+- `text-fs-2`: font-size of 1.5rem
+- `text-fs-3`: font-size of 2.0rem
+- `text-fs-4`: font-size of 2.5rem
+- `text-fs-5`: font-size of 3.0rem
+- `text-fs-6`: font-size of 3.5rem
+- `text-fs-7`: font-size of 4.0rem
+
+There are two properties that doesn't follow the shortened property-name:
+
+The `font-weight`:
+- `text-regular`
+- `text-medium`
+- `text-bold`
+
+And the `text-align`:
+- `text-align-left`
+- `text-align-center`
+- `text-align-right`
+- `text-align-justify`
+
 
 ## Colors
-> Under construction
+
+Colors can be changed automatically between light and dark themes, as far as you use the default ones provided.
+
+### Text
+- `text-color-1`: 1, 2, and 3 changes the text color to achromatic values (shades of grey).
+- `text-color-purple`: purple, blue, green, yellow, salmon, and red changes the text color to chromatic values (colorful shades).
+
+### Button
+- `button-solid-purple`: reverse, purple, blue, green, yellow, salmon, and red changes the button color to chromatic values (colorful shades).
+- `button-secondary-purple`: same as the solid, but the background is semi-transparent and the text color is the solid color.
+
+### Background
+- `bg-color-1`: 1 and 2 are the default colors of the background. 1 being the lightest and 2 being the darkest. There are colors 3, 4, and 5 as well, that can be used for different scenarios (in light theme, they become darker, and in dark theme they become lighter).
+- `bg-color-purple`: reverse, purple, blue, green, yellow, salmon, and red changes the background color to chromatic values (colorful shades).
+
+### Border
+- `b-color-1`: 1, 2, 3, 4 and 5 changes the border color to achromatic values (shades of grey).
+- `b-color-purple`: reverse, purple, blue, green, yellow, salmon, and red changes the border color to chromatic values (colorful shades).
+
 
 ## Viewports/Breakpoints
 > Here are the current available viewports and their breakpoints
