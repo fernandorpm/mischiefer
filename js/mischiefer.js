@@ -105,6 +105,9 @@ function MakeItLight() {
   // Colored Button Secondary
   RemoveClass('button-secondary-reverse-dark', 'button-secondary-reverse');
 
+  // Form
+  RemoveClassByTag('form-dark', 'form');
+
   // Light & Dark Border Color
   SetBorderColor(light1, 'b-color-1');
   SetBorderColor(light2, 'b-color-2');
@@ -127,7 +130,7 @@ function MakeItLight() {
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
 
-  document.cookie = "equilibrium=light;expires="+ d +";SameSite=None;Secure";
+  document.cookie = "equilibrium=light;expires=" + d + ";SameSite=None;Secure";
 }
 
 // MAKE IT DARK ===================================================================
@@ -144,7 +147,7 @@ function MakeItDark() {
   // Text Color
   SetTextColor(light3, 'text-color-1');
   SetTextColor(light4, 'text-color-2');
-  SetTextColor(light5, 'text-color-3');  
+  SetTextColor(light5, 'text-color-3');
 
   // Mischiefer Logo
   AddClass('mischiefer-face-dark', 'mischiefer-face');
@@ -209,6 +212,9 @@ function MakeItDark() {
   // Colored Button Secondary
   AddClass('button-secondary-reverse-dark', 'button-secondary-reverse');
 
+  // Form
+  AddClassByTag('form-dark', 'form');
+
   // Light & Dark Border Color
   SetBorderColor(dark1, 'b-color-1');
   SetBorderColor(dark2, 'b-color-2');
@@ -231,7 +237,7 @@ function MakeItDark() {
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
 
-  document.cookie = "equilibrium=dark;expires="+ d +";SameSite=None;Secure";
+  document.cookie = "equilibrium=dark;expires=" + d + ";SameSite=None;Secure";
 }
 
 // DEFAULT FUNCTIONS ==============================================================
@@ -245,6 +251,20 @@ function AddClass(classAdd, className) {
 
 function RemoveClass(classRemove, className) {
   let all = document.getElementsByClassName(className);
+  for (let i = 0; i < all.length; i++) {
+    all[i].classList.remove(classRemove);
+  }
+}
+
+function AddClassByTag(classAdd, tagName) {
+  let all = document.getElementsByTagName(tagName);
+  for (let i = 0; i < all.length; i++) {
+    all[i].classList.add(classAdd);
+  }
+}
+
+function RemoveClassByTag(classRemove, tagName) {
+  let all = document.getElementsByTagName(tagName);
   for (let i = 0; i < all.length; i++) {
     all[i].classList.remove(classRemove);
   }

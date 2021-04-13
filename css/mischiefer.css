@@ -177,6 +177,31 @@ p {
   position: fixed;
   right: 0; }
 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif; }
+
+form > * {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #d7dee6;
+  font-family: "Rubik", sans-serif; }
+
+input[type="color"] {
+  height: 60px; }
+
+.form-dark > * {
+  border: 1px solid #474763;
+  background-color: #37374f; }
+
+.form-dark input[type="checkbox"],
+.form-dark input[type="radio"],
+.form-dark input[type="range"] {
+  filter: invert(85%) hue-rotate(-200deg); }
+
 button {
   text-decoration: none;
   border-radius: 0;
@@ -187,6 +212,7 @@ button {
   background-color: #845dec;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -197,6 +223,7 @@ button {
   background-color: #51adf8;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -207,6 +234,7 @@ button {
   background-color: #3bcf85;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -217,6 +245,7 @@ button {
   background-color: #ffc14e;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -227,6 +256,7 @@ button {
   background-color: #fa8072;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -237,6 +267,7 @@ button {
   background-color: #e34646;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -247,6 +278,7 @@ button {
   background-color: #474763;
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   transition-duration: 0.2s !important; }
 
@@ -257,6 +289,7 @@ button {
   background-color: rgba(96, 67, 177, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #9470f5 !important;
   transition-duration: 0.2s !important; }
@@ -268,6 +301,7 @@ button {
   background-color: rgba(81, 173, 248, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #4795d4 !important;
   transition-duration: 0.2s !important; }
@@ -279,6 +313,7 @@ button {
   background-color: rgba(59, 207, 133, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #3faa75 !important;
   transition-duration: 0.2s !important; }
@@ -290,6 +325,7 @@ button {
   background-color: rgba(255, 193, 78, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #d69927 !important;
   transition-duration: 0.2s !important; }
@@ -301,6 +337,7 @@ button {
   background-color: rgba(250, 128, 114, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #e66759 !important;
   transition-duration: 0.2s !important; }
@@ -312,6 +349,7 @@ button {
   background-color: rgba(227, 70, 70, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #be4040 !important;
   transition-duration: 0.2s !important; }
@@ -323,6 +361,7 @@ button {
   background-color: rgba(71, 71, 99, 0.2);
   cursor: pointer;
   text-decoration: none;
+  border: 0;
   padding: 10px 18px;
   color: #5d5d7a !important;
   transition-duration: 0.2s !important; }

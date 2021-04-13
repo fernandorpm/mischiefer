@@ -265,6 +265,38 @@ p {
   right: 0;
 }
 
+// FORM =========================================================================
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: $text;
+}
+
+form > * {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid $light4;
+  font-family: $text;
+}
+
+input[type="color"] {
+  height: 60px;
+}
+
+.form-dark > * {
+  border: 1px solid $dark3;
+  background-color: $dark1;
+}
+
+.form-dark input[type="checkbox"],
+.form-dark input[type="radio"],
+.form-dark input[type="range"] {
+  filter: invert(85%) hue-rotate(-200deg);
+}
+
 // BUTTON =======================================================================
 
 button {
@@ -280,6 +312,7 @@ button {
     background-color: nth($all-colors, $i);
     cursor: pointer;
     text-decoration: none;
+    border: 0;
     padding: 10px 18px;
     transition-duration: 0.2s !important;
   }
@@ -295,6 +328,7 @@ button {
     background-color: nth($all-colors-low-opacity, $i);
     cursor: pointer;
     text-decoration: none;
+    border: 0;
     padding: 10px 18px;
     color: nth($all-colors-dark, $i) !important;
     transition-duration: 0.2s !important;
