@@ -1,5 +1,5 @@
 const light1 = '#fff';
-const light2 = '#f9fcff';
+const light2 = '#f5f9fc';
 const light3 = '#f1f4f7';
 const light4 = '#d7dee6';
 const light5 = '#9eadbe';
@@ -78,7 +78,7 @@ function MakeItLight() {
   SetBackgroundColor(dark3, 'bg-color-reverse');
   SetBackgroundColor('#845dec', 'bg-color-purple');
   SetBackgroundColor('#51adf8', 'bg-color-blue');
-  SetBackgroundColor('#3bcf85', 'bg-color-green');
+  SetBackgroundColor('#37af73', 'bg-color-green');
   SetBackgroundColor('#ffc14e', 'bg-color-yellow');
   SetBackgroundColor('#fa8072', 'bg-color-salmon');
   SetBackgroundColor('#e34646', 'bg-color-red');
@@ -90,7 +90,7 @@ function MakeItLight() {
   SetTextColor(light2, 'button-solid-purple');
   SetBackgroundColor('#51adf8', 'button-solid-blue');
   SetTextColor(light2, 'button-solid-blue');
-  SetBackgroundColor('#3bcf85', 'button-solid-green');
+  SetBackgroundColor('#37af73', 'button-solid-green');
   SetTextColor(light2, 'button-solid-green');
   SetBackgroundColor('#ffc14e', 'button-solid-yellow');
   SetTextColor(dark3, 'button-solid-yellow');
@@ -105,6 +105,9 @@ function MakeItLight() {
   // Colored Button Secondary
   RemoveClass('button-secondary-reverse-dark', 'button-secondary-reverse');
 
+  // Form
+  RemoveClassByTag('form-dark', 'form');
+
   // Light & Dark Border Color
   SetBorderColor(light1, 'b-color-1');
   SetBorderColor(light2, 'b-color-2');
@@ -115,7 +118,7 @@ function MakeItLight() {
   // Colored Border Color
   SetBorderColor(dark3, 'b-color-reverse');
   SetBorderColor('#51adf8', 'b-color-blue');
-  SetBorderColor('#3bcf85', 'b-color-green');
+  SetBorderColor('#37af73', 'b-color-green');
   SetBorderColor('#ffc14e', 'b-color-yellow');
   SetBorderColor('#fa8072', 'b-color-salmon');
   SetBorderColor('#e34646', 'b-color-red');
@@ -127,7 +130,7 @@ function MakeItLight() {
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
 
-  document.cookie = "equilibrium=light;expires="+ d +";SameSite=None;Secure";
+  document.cookie = "equilibrium=light;expires=" + d + ";SameSite=None;Secure";
 }
 
 // MAKE IT DARK ===================================================================
@@ -144,7 +147,7 @@ function MakeItDark() {
   // Text Color
   SetTextColor(light3, 'text-color-1');
   SetTextColor(light4, 'text-color-2');
-  SetTextColor(light5, 'text-color-3');  
+  SetTextColor(light5, 'text-color-3');
 
   // Mischiefer Logo
   AddClass('mischiefer-face-dark', 'mischiefer-face');
@@ -209,6 +212,9 @@ function MakeItDark() {
   // Colored Button Secondary
   AddClass('button-secondary-reverse-dark', 'button-secondary-reverse');
 
+  // Form
+  AddClassByTag('form-dark', 'form');
+
   // Light & Dark Border Color
   SetBorderColor(dark1, 'b-color-1');
   SetBorderColor(dark2, 'b-color-2');
@@ -231,7 +237,7 @@ function MakeItDark() {
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
 
-  document.cookie = "equilibrium=dark;expires="+ d +";SameSite=None;Secure";
+  document.cookie = "equilibrium=dark;expires=" + d + ";SameSite=None;Secure";
 }
 
 // DEFAULT FUNCTIONS ==============================================================
@@ -245,6 +251,20 @@ function AddClass(classAdd, className) {
 
 function RemoveClass(classRemove, className) {
   let all = document.getElementsByClassName(className);
+  for (let i = 0; i < all.length; i++) {
+    all[i].classList.remove(classRemove);
+  }
+}
+
+function AddClassByTag(classAdd, tagName) {
+  let all = document.getElementsByTagName(tagName);
+  for (let i = 0; i < all.length; i++) {
+    all[i].classList.add(classAdd);
+  }
+}
+
+function RemoveClassByTag(classRemove, tagName) {
+  let all = document.getElementsByTagName(tagName);
   for (let i = 0; i < all.length; i++) {
     all[i].classList.remove(classRemove);
   }

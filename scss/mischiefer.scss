@@ -29,7 +29,7 @@ $medium: 500;
 $bold: 700;
 
 $light1: #fff;
-$light2: #f9fcff;
+$light2: #f5f9fc;
 $light3: #f1f4f7;
 $light4: #d7dee6;
 $light5: #9eadbe;
@@ -46,15 +46,17 @@ $dark-colors: $dark1, $dark2, $dark3, $dark4, $dark5;
 
 $purple: #845dec;
 $blue: #51adf8;
-$green: #3bcf85;
+$green: #37af73;
 $yellow: #ffc14e;
 $salmon: #fa8072;
 $red: #e34646;
 $reverse: #474763;
 
 $mono-colors: $dark3, $dark4, $dark5;
+$mono-colors-light: $light3, $light4, $light5;
+
 $all-colors: $purple, $blue, $green, $yellow, $salmon, $red, $reverse;
-$all-colors-dark: #9470f5, #4795d4, #3faa75, #d69927, #e66759, #be4040, $dark4;
+$all-colors-dark: #9470f5, #4795d4, #37af73, #d69927, #e66759, #be4040, $dark4;
 $all-colors-low-opacity: rgba(96, 67, 177, 0.2), rgba(81, 173, 248, 0.2), rgba(59, 207, 133, 0.2),
   rgba(255, 193, 78, 0.2), rgba(250, 128, 114, 0.2), rgba(227, 70, 70, 0.2), rgba(71, 71, 99, 0.2);
 $all-colors-name: 'purple', 'blue', 'green', 'yellow', 'salmon', 'red', 'reverse';
@@ -69,6 +71,7 @@ $all-colors-name: 'purple', 'blue', 'green', 'yellow', 'salmon', 'red', 'reverse
   margin: 0;
   padding: 0;
   line-height: 1.2;
+  font-size: 0.95rem;
 }
 
 body {
@@ -86,6 +89,33 @@ h6 {
 }
 
 // TEXT =========================================================================
+
+// Title
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
 
 // Family
 
@@ -119,7 +149,7 @@ p {
 // Size
 
 .text-fs-default {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 @for $i from 1 to 7 {
@@ -165,6 +195,14 @@ p {
 @for $i from 1 to length($mono-colors) {
   .text-color-#{$i} {
     color: nth($mono-colors, $i);
+  }
+
+  .text-light-#{$i} {
+    color: nth($mono-colors-light, $i) !important;
+  }
+
+  .text-dark-#{$i} {
+    color: nth($mono-colors, $i) !important;
   }
 }
 
@@ -265,6 +303,71 @@ p {
   right: 0;
 }
 
+// FORM =========================================================================
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: $text;
+}
+
+form > * {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid $light4;
+  font-family: $text;
+}
+
+input,
+textarea {
+  font-size: 0.95rem;
+  max-width: 800px;
+}
+
+input[type="color"] {
+  height: 60px;
+}
+
+.form-dark > * {
+  border: 1px solid $dark3;
+  background-color: $dark1;
+}
+
+.form-dark input[type="checkbox"],
+.form-dark input[type="radio"],
+.form-dark input[type="range"] {
+  filter: invert(85%) hue-rotate(-200deg);
+}
+
+// Rails Forms
+
+.field,
+.actions {
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.field label {
+  font-weight: $bold;
+}
+
+.field input,
+.field textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(214, 214, 214);
+  width: 100%;
+}
+
+.form-dark input,
+.form-dark textarea {
+  border: 1px solid $dark3;
+  background-color: $dark1;
+}
+
+
 // BUTTON =======================================================================
 
 button {
@@ -280,11 +383,14 @@ button {
     background-color: nth($all-colors, $i);
     cursor: pointer;
     text-decoration: none;
+    border: 0;
     padding: 10px 18px;
     transition-duration: 0.2s !important;
   }
 
   .button-solid-#{$name}:hover {
+    background-color: nth($all-colors, $i);
+    opacity: 1;
     filter: brightness(1.2);
   }
 }
@@ -295,14 +401,15 @@ button {
     background-color: nth($all-colors-low-opacity, $i);
     cursor: pointer;
     text-decoration: none;
+    border: 0;
     padding: 10px 18px;
     color: nth($all-colors-dark, $i) !important;
     transition-duration: 0.2s !important;
   }
 
   .button-secondary-#{$name}:hover {
-    //filter: brightness(1.3);
-    opacity: 0.6;
+    background-color: nth($all-colors-low-opacity, $i) !important;
+    opacity: 0.8;
   }
 }
 
@@ -317,12 +424,14 @@ button {
   cursor: pointer;
   text-decoration: none;
   padding: 9px 17px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0) !important;
   color: $dark5 !important;
   transition-duration: 0.2s !important;
 }
 
 .button-empty:hover {
+  background-color: rgba(0,0,0,0) !important;
+  opacity: 1;
   filter: brightness(0.2);
 }
 
@@ -332,6 +441,8 @@ button {
 }
 
 .button-empty-dark:hover {
+  background-color: rgba(0,0,0,0);
+  opacity: 1;
   filter: brightness(1.6);
 }
 
@@ -357,6 +468,13 @@ button {
 
 .button-empty-3 {
   padding: 21px 49px;
+}
+
+// ANCHOR =======================================================================
+
+a:hover {
+  opacity: 0.7;
+  transition-duration: 0.2s !important;
 }
 
 // CARD =========================================================================
@@ -436,17 +554,33 @@ button {
   }
 }
 
+.navbar-container-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .navbar-brand {
   text-decoration: none;
 }
 
-.navbar-container ul {
+.navbar-container ul,
+.navbar-container-full ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
-.navbar-container li {
+.navbar-container li,
+.navbar-container-full li {
   margin-left: 0.8rem;
+}
+
+.navbar-container a,
+.navbar-container-full a {
+  text-decoration: none;
 }
 
 // BOX-SHADOW ===================================================================
@@ -468,30 +602,6 @@ button {
   .bg-color-#{$name} {
     background-color: nth($all-colors, $i);
   }
-}
-
-.bg-color-reverse {
-  background-color: $dark3;
-}
-
-.bg-color-green {
-  background-color: #3bcf85;
-}
-
-.bg-color-blue {
-  background-color: #51adf8;
-}
-
-.bg-color-yellow {
-  background-color: #ffc14e;
-}
-
-.bg-color-salmon {
-  background-color: #fa8072;
-}
-
-.bg-color-red {
-  background-color: #e34646;
 }
 
 // SIZE =========================================================================
@@ -697,7 +807,7 @@ $display-types: none, inline, block, inline-block, flex, grid, contents, initial
 }
 
 .b-color-green {
-  border-color: #3bcf85;
+  border-color: #37bb79;
 }
 
 .b-color-blue {
