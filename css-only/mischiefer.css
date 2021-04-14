@@ -2191,12 +2191,12 @@ button {
 }
 
 /* line 811, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-h1 {
+* {
   background-color: #fff;
 }
 
 /* line 813, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-body.dark h1 {
+body.dark * {
   background-color: #37374f;
 }
 

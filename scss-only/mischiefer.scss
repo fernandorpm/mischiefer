@@ -808,7 +808,7 @@ $display-types: none, inline, block, inline-block, flex, grid, contents, initial
   }
 }
 
-h1 {
+* {
   @include theme-colors($light-theme: true);
   body.dark & {
     @include theme-colors($light-theme: false);
