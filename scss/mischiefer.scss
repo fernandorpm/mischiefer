@@ -390,6 +390,7 @@ button {
 
   .button-solid-#{$name}:hover {
     background-color: nth($all-colors, $i);
+    opacity: 1;
     filter: brightness(1.2);
   }
 }
@@ -430,6 +431,7 @@ button {
 
 .button-empty:hover {
   background-color: rgba(0,0,0,0) !important;
+  opacity: 1;
   filter: brightness(0.2);
 }
 
@@ -440,6 +442,7 @@ button {
 
 .button-empty-dark:hover {
   background-color: rgba(0,0,0,0);
+  opacity: 1;
   filter: brightness(1.6);
 }
 

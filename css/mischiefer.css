@@ -274,6 +274,7 @@ button {
 
 .button-solid-purple:hover {
   background-color: #845dec;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-blue {
@@ -286,6 +287,7 @@ button {
 
 .button-solid-blue:hover {
   background-color: #51adf8;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-green {
@@ -298,6 +300,7 @@ button {
 
 .button-solid-green:hover {
   background-color: #37af73;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-yellow {
@@ -310,6 +313,7 @@ button {
 
 .button-solid-yellow:hover {
   background-color: #ffc14e;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-salmon {
@@ -322,6 +326,7 @@ button {
 
 .button-solid-salmon:hover {
   background-color: #fa8072;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-red {
@@ -334,6 +339,7 @@ button {
 
 .button-solid-red:hover {
   background-color: #e34646;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-solid-reverse {
@@ -346,6 +352,7 @@ button {
 
 .button-solid-reverse:hover {
   background-color: #474763;
+  opacity: 1;
   filter: brightness(1.2); }
 
 .button-secondary-purple {
@@ -455,6 +462,7 @@ button {
 
 .button-empty:hover {
   background-color: rgba(0, 0, 0, 0) !important;
+  opacity: 1;
   filter: brightness(0.2); }
 
 .button-empty-dark {
@@ -463,6 +471,7 @@ button {
 
 .button-empty-dark:hover {
   background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
   filter: brightness(1.6); }
 
 .button-1 {
