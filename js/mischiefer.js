@@ -1,5 +1,5 @@
 const light1 = '#fff';
-const light2 = '#f9fcff';
+const light2 = '#f5f9fc';
 const light3 = '#f1f4f7';
 const light4 = '#d7dee6';
 const light5 = '#9eadbe';
@@ -78,7 +78,7 @@ function MakeItLight() {
   SetBackgroundColor(dark3, 'bg-color-reverse');
   SetBackgroundColor('#845dec', 'bg-color-purple');
   SetBackgroundColor('#51adf8', 'bg-color-blue');
-  SetBackgroundColor('#3bcf85', 'bg-color-green');
+  SetBackgroundColor('#37af73', 'bg-color-green');
   SetBackgroundColor('#ffc14e', 'bg-color-yellow');
   SetBackgroundColor('#fa8072', 'bg-color-salmon');
   SetBackgroundColor('#e34646', 'bg-color-red');
@@ -90,7 +90,7 @@ function MakeItLight() {
   SetTextColor(light2, 'button-solid-purple');
   SetBackgroundColor('#51adf8', 'button-solid-blue');
   SetTextColor(light2, 'button-solid-blue');
-  SetBackgroundColor('#3bcf85', 'button-solid-green');
+  SetBackgroundColor('#37af73', 'button-solid-green');
   SetTextColor(light2, 'button-solid-green');
   SetBackgroundColor('#ffc14e', 'button-solid-yellow');
   SetTextColor(dark3, 'button-solid-yellow');
@@ -118,7 +118,7 @@ function MakeItLight() {
   // Colored Border Color
   SetBorderColor(dark3, 'b-color-reverse');
   SetBorderColor('#51adf8', 'b-color-blue');
-  SetBorderColor('#3bcf85', 'b-color-green');
+  SetBorderColor('#37af73', 'b-color-green');
   SetBorderColor('#ffc14e', 'b-color-yellow');
   SetBorderColor('#fa8072', 'b-color-salmon');
   SetBorderColor('#e34646', 'b-color-red');

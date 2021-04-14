@@ -11,10 +11,11 @@
   color: #2f2f40;
   margin: 0;
   padding: 0;
-  line-height: 1.2; }
+  line-height: 1.2;
+  font-size: 0.95rem; }
 
 body {
-  background-color: #f9fcff; }
+  background-color: #f5f9fc; }
 
 h1,
 h2,
@@ -24,6 +25,24 @@ h5,
 h6 {
   font-family: "Signika", sans-serif;
   font-weight: 700; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+h5 {
+  font-size: 1.2rem; }
+
+h6 {
+  font-size: 1rem; }
 
 .text-ff-title {
   font-family: "Signika", sans-serif !important; }
@@ -45,7 +64,7 @@ p {
   line-height: 2; }
 
 .text-fs-default {
-  font-size: 0.9rem; }
+  font-size: 0.95rem; }
 
 .text-fs-1 {
   font-size: 1rem; }
@@ -89,8 +108,20 @@ p {
 .text-color-1 {
   color: #474763; }
 
+.text-light-1 {
+  color: #f1f4f7 !important; }
+
+.text-dark-1 {
+  color: #474763 !important; }
+
 .text-color-2 {
   color: #5d5d7a; }
+
+.text-light-2 {
+  color: #d7dee6 !important; }
+
+.text-dark-2 {
+  color: #5d5d7a !important; }
 
 .text-color-purple {
   color: #845dec !important; }
@@ -99,7 +130,7 @@ p {
   color: #51adf8 !important; }
 
 .text-color-green {
-  color: #3bcf85 !important; }
+  color: #37af73 !important; }
 
 .text-color-yellow {
   color: #ffc14e !important; }
@@ -180,7 +211,7 @@ p {
 form {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   font-family: "Rubik", sans-serif; }
 
@@ -189,6 +220,11 @@ form > * {
   padding: 0.5rem;
   border: 1px solid #d7dee6;
   font-family: "Rubik", sans-serif; }
+
+input,
+textarea {
+  font-size: 0.95rem;
+  max-width: 800px; }
 
 input[type="color"] {
   height: 60px; }
@@ -201,6 +237,26 @@ input[type="color"] {
 .form-dark input[type="radio"],
 .form-dark input[type="range"] {
   filter: invert(85%) hue-rotate(-200deg); }
+
+.field,
+.actions {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0); }
+
+.field label {
+  font-weight: 700; }
+
+.field input,
+.field textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #d6d6d6;
+  width: 100%; }
+
+.form-dark input,
+.form-dark textarea {
+  border: 1px solid #474763;
+  background-color: #37374f; }
 
 button {
   text-decoration: none;
@@ -217,6 +273,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-purple:hover {
+  background-color: #845dec;
   filter: brightness(1.2); }
 
 .button-solid-blue {
@@ -228,10 +285,11 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-blue:hover {
+  background-color: #51adf8;
   filter: brightness(1.2); }
 
 .button-solid-green {
-  background-color: #3bcf85;
+  background-color: #37af73;
   cursor: pointer;
   text-decoration: none;
   border: 0;
@@ -239,6 +297,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-green:hover {
+  background-color: #37af73;
   filter: brightness(1.2); }
 
 .button-solid-yellow {
@@ -250,6 +309,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-yellow:hover {
+  background-color: #ffc14e;
   filter: brightness(1.2); }
 
 .button-solid-salmon {
@@ -261,6 +321,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-salmon:hover {
+  background-color: #fa8072;
   filter: brightness(1.2); }
 
 .button-solid-red {
@@ -272,6 +333,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-red:hover {
+  background-color: #e34646;
   filter: brightness(1.2); }
 
 .button-solid-reverse {
@@ -283,6 +345,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-solid-reverse:hover {
+  background-color: #474763;
   filter: brightness(1.2); }
 
 .button-secondary-purple {
@@ -295,7 +358,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-purple:hover {
-  opacity: 0.6; }
+  background-color: rgba(96, 67, 177, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-blue {
   background-color: rgba(81, 173, 248, 0.2);
@@ -307,7 +371,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-blue:hover {
-  opacity: 0.6; }
+  background-color: rgba(81, 173, 248, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-green {
   background-color: rgba(59, 207, 133, 0.2);
@@ -315,11 +380,12 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  color: #3faa75 !important;
+  color: #37af73 !important;
   transition-duration: 0.2s !important; }
 
 .button-secondary-green:hover {
-  opacity: 0.6; }
+  background-color: rgba(59, 207, 133, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-yellow {
   background-color: rgba(255, 193, 78, 0.2);
@@ -331,7 +397,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-yellow:hover {
-  opacity: 0.6; }
+  background-color: rgba(255, 193, 78, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-salmon {
   background-color: rgba(250, 128, 114, 0.2);
@@ -343,7 +410,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-salmon:hover {
-  opacity: 0.6; }
+  background-color: rgba(250, 128, 114, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-red {
   background-color: rgba(227, 70, 70, 0.2);
@@ -355,7 +423,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-red:hover {
-  opacity: 0.6; }
+  background-color: rgba(227, 70, 70, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-reverse {
   background-color: rgba(71, 71, 99, 0.2);
@@ -367,7 +436,8 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-secondary-reverse:hover {
-  opacity: 0.6; }
+  background-color: rgba(71, 71, 99, 0.2) !important;
+  opacity: 0.8; }
 
 .button-secondary-reverse-dark {
   background-color: rgba(120, 120, 151, 0.2);
@@ -379,11 +449,12 @@ button {
   cursor: pointer;
   text-decoration: none;
   padding: 9px 17px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0) !important;
   color: #adafc3 !important;
   transition-duration: 0.2s !important; }
 
 .button-empty:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
   filter: brightness(0.2); }
 
 .button-empty-dark {
@@ -391,6 +462,7 @@ button {
   transition-duration: 0.2s !important; }
 
 .button-empty-dark:hover {
+  background-color: rgba(0, 0, 0, 0);
   filter: brightness(1.6); }
 
 .button-1 {
@@ -412,7 +484,7 @@ button {
   padding: 21px 49px; }
 
 a:hover {
-  filter: brightness(0.6);
+  opacity: 0.7;
   transition-duration: 0.2s !important; }
 
 .card {
@@ -507,7 +579,7 @@ a:hover {
   background-color: #fff; }
 
 .bg-color-2 {
-  background-color: #f9fcff; }
+  background-color: #f5f9fc; }
 
 .bg-color-3 {
   background-color: #f1f4f7; }
@@ -522,7 +594,7 @@ a:hover {
   background-color: #51adf8; }
 
 .bg-color-green {
-  background-color: #3bcf85; }
+  background-color: #37af73; }
 
 .bg-color-yellow {
   background-color: #ffc14e; }
@@ -1150,7 +1222,7 @@ a:hover {
   border-color: #fff; }
 
 .b-color-2 {
-  border-color: #f9fcff; }
+  border-color: #f5f9fc; }
 
 .b-color-3 {
   border-color: #f1f4f7; }
@@ -1165,7 +1237,7 @@ a:hover {
   border-color: #474763; }
 
 .b-color-green {
-  border-color: #3bcf85; }
+  border-color: #37bb79; }
 
 .b-color-blue {
   border-color: #51adf8; }

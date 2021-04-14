@@ -1,6 +1,6 @@
 {
   "name": "mischiefer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischief!",
   "main": "mischiefer.js",
   "scripts": {
@@ -30,6 +30,8 @@
     "scss",
     "js",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "Documentation.md",
+    "Changelog.md"
   ]
 }
