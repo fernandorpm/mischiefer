@@ -1,0 +1,13 @@
+@import '../scss-only/variables';
+
+// TEXT =========================================================================
+
+// Family
+
+.text-ff-title {
+  font-family: $title !important;
+}
+
+.text-ff-text {
+  font-family: $text !important;
+}

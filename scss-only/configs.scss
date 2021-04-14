@@ -1,0 +1,51 @@
+@import '../scss-only/variables';
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+
+@mixin sm {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  font-family: $text;
+  font-weight: $regular;
+  color: $dark2;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+body {
+  background-color: $light2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title;
+  font-weight: $bold;
+}
