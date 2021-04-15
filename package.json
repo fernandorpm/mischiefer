@@ -1,5 +1,5 @@
 {
-  "name": "@fernandorpm/mischiefer",
+  "name": "mischiefer",
   "version": "0.2.1",
   "description": "A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischief!",
   "main": "mischiefer.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fernandorpm/mischiefer.git"
+    "url": "git+https://github.com/fernandorpm/mischiefer.git"
   },
   "keywords": [
     "front-end",
