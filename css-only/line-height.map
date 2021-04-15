@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "line-height.css",
+	"sources": [
+		"../scss-only/line-height.scss"
+	],
+	"sourcesContent": [
+		"// Line Height\n\n.text-lh-1 {\n  line-height: 1;\n}\n\n.text-lh-2 {\n  line-height: 1.2;\n}\n\n.text-lh-3,\np {\n  line-height: 1.5;\n}\n\n.text-lh-4 {\n  line-height: 2;\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,CAAC;CACf;;;AAED,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,UAAU;AACV,CAAC,CAAC;EACA,WAAW,EAAE,GAAG;CACjB;;;AAED,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,CAAC;CACf"
+}

@@ -1,0 +1,39 @@
+// PADDING ======================================================================
+
+@for $i from 1 to 6 {
+  $size: $i * 0.5rem;
+
+  .p-#{$i} {
+    padding: $size;
+  }
+
+  // Vertical
+
+  .py-#{$i} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+
+  .pt-#{$i} {
+    padding-top: $size;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $size;
+  }
+
+  // Horizontal
+
+  .px-#{$i} {
+    padding-right: $size;
+    padding-left: $size;
+  }
+
+  .pr-#{$i} {
+    padding-right: $size;
+  }
+
+  .pl-#{$i} {
+    padding-left: $size;
+  }
+}

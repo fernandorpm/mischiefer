@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 5, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+button {
+  text-decoration: none;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-purple {
+  background-color: #845dec;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-purple:hover {
+  background-color: #845dec;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-blue {
+  background-color: #51adf8;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-blue:hover {
+  background-color: #51adf8;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-green {
+  background-color: #37af73;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-green:hover {
+  background-color: #37af73;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-yellow {
+  background-color: #ffc14e;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-yellow:hover {
+  background-color: #ffc14e;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-salmon {
+  background-color: #fa8072;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-salmon:hover {
+  background-color: #fa8072;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-red {
+  background-color: #e34646;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-red:hover {
+  background-color: #e34646;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-reverse {
+  background-color: #474763;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-reverse:hover {
+  background-color: #474763;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-purple {
+  background-color: rgba(96, 67, 177, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #9470f5 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-purple:hover {
+  background-color: rgba(96, 67, 177, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-blue {
+  background-color: rgba(81, 173, 248, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #4795d4 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-blue:hover {
+  background-color: rgba(81, 173, 248, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-green {
+  background-color: rgba(59, 207, 133, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #37af73 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-green:hover {
+  background-color: rgba(59, 207, 133, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-yellow {
+  background-color: rgba(255, 193, 78, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #d69927 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-yellow:hover {
+  background-color: rgba(255, 193, 78, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-salmon {
+  background-color: rgba(250, 128, 114, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #e66759 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-salmon:hover {
+  background-color: rgba(250, 128, 114, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-red {
+  background-color: rgba(227, 70, 70, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #be4040 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-red:hover {
+  background-color: rgba(227, 70, 70, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse {
+  background-color: rgba(71, 71, 99, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #5d5d7a !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse:hover {
+  background-color: rgba(71, 71, 99, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse-dark {
+  background-color: rgba(120, 120, 151, 0.2);
+  color: #9eadbe !important;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty {
+  border: 1px solid black;
+  border-color: #9eadbe;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 9px 17px;
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #adafc3 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  opacity: 1;
+  filter: brightness(0.2);
+}
+
+/* line 70, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-dark {
+  border-color: #5d5d7a;
+  transition-duration: 0.2s !important;
+}
+
+/* line 75, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-dark:hover {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  filter: brightness(1.6);
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-1 {
+  padding: 14px 24px;
+}
+
+/* line 85, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-2 {
+  padding: 18px 36px;
+}
+
+/* line 89, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-3 {
+  padding: 22px 50px;
+}
+
+/* line 93, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-1 {
+  padding: 13px 23px;
+}
+
+/* line 97, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-2 {
+  padding: 17px 35px;
+}
+
+/* line 101, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-3 {
+  padding: 21px 49px;
+}
+
+/*# sourceMappingURL=buttons.css.map */

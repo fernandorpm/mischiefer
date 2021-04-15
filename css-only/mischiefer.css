@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
-/* line 62, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+/* line 3, ../../../projects/mischiefer/scss-only/addons/anchor.scss */
+a:hover {
+  opacity: 0.7;
+  transition-duration: 0.2s !important;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
 * {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -13,9 +28,15 @@
   margin: 0;
   padding: 0;
   line-height: 1.2;
+  font-size: 0.95rem;
 }
 
-/* line 78, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
 h1,
 h2,
 h3,
@@ -26,154 +47,975 @@ h6 {
   font-weight: 700;
 }
 
-/* line 92, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-ff-title {
-  font-family: "Signika", sans-serif !important;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-1 {
+  background-color: #fff;
 }
 
-/* line 96, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-ff-text {
-  font-family: "Rubik", sans-serif !important;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-2 {
+  background-color: #f5f9fc;
 }
 
-/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-lh-1 {
-  line-height: 1;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-3 {
+  background-color: #f1f4f7;
 }
 
-/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-lh-2 {
-  line-height: 1.2;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-4 {
+  background-color: #d7dee6;
 }
 
-/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-lh-3,
-p {
-  line-height: 1.5;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-purple {
+  background-color: #845dec;
 }
 
-/* line 115, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-lh-4 {
-  line-height: 2;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-blue {
+  background-color: #51adf8;
 }
 
-/* line 121, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-default {
-  font-size: 0.9rem;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-green {
+  background-color: #37af73;
 }
 
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-1 {
-  font-size: 1rem;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-yellow {
+  background-color: #ffc14e;
 }
 
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-2 {
-  font-size: 1.5rem;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-salmon {
+  background-color: #fa8072;
 }
 
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-3 {
-  font-size: 2rem;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/background-color.scss */
+.bg-color-red {
+  background-color: #e34646;
 }
 
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-4 {
-  font-size: 2.5rem;
-}
-
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-5 {
-  font-size: 3rem;
-}
-
-/* line 126, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-fs-6 {
-  font-size: 3.5rem;
-}
-
-/* line 133, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-regular {
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
   font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
 }
 
-/* line 137, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-medium {
-  font-weight: 500;
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
 }
 
-/* line 141, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-bold {
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
   font-weight: 700;
 }
 
-/* line 147, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-align-center {
-  text-align: center;
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-0 {
+  border: 0px solid #d7dee6;
 }
 
-/* line 151, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-align-start {
-  text-align: start;
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-0 {
+  border-top: 0px solid #d7dee6;
+  border-bottom: 0px solid #d7dee6;
 }
 
-/* line 155, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-align-end {
-  text-align: end;
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-0 {
+  border-top: 0px solid #d7dee6;
 }
 
-/* line 159, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-align-justify {
-  text-align: justify;
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-0 {
+  border-bottom: 0px solid #d7dee6;
 }
 
-/* line 166, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-1 {
-  color: #474763;
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-0 {
+  border-right: 0px solid #d7dee6;
+  border-left: 0px solid #d7dee6;
 }
 
-/* line 166, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-2 {
-  color: #5d5d7a;
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-0 {
+  border-right: 0px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-purple {
-  color: #845dec !important;
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-0 {
+  border-left: 0px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-blue {
-  color: #51adf8 !important;
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-1 {
+  border: 1px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-green {
-  color: #3bcf85 !important;
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-1 {
+  border-top: 1px solid #d7dee6;
+  border-bottom: 1px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-yellow {
-  color: #ffc14e !important;
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-1 {
+  border-top: 1px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-salmon {
-  color: #fa8072 !important;
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-1 {
+  border-bottom: 1px solid #d7dee6;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-color-red {
-  color: #e34646 !important;
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-1 {
+  border-right: 1px solid #d7dee6;
+  border-left: 1px solid #d7dee6;
 }
 
-/* line 178, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.text-subtitle {
-  color: #9eadbe;
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-1 {
+  border-right: 1px solid #d7dee6;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-1 {
+  border-left: 1px solid #d7dee6;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-2 {
+  border: 2px solid #d7dee6;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-2 {
+  border-top: 2px solid #d7dee6;
+  border-bottom: 2px solid #d7dee6;
+}
+
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-2 {
+  border-top: 2px solid #d7dee6;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-2 {
+  border-bottom: 2px solid #d7dee6;
+}
+
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-2 {
+  border-right: 2px solid #d7dee6;
+  border-left: 2px solid #d7dee6;
+}
+
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-2 {
+  border-right: 2px solid #d7dee6;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-2 {
+  border-left: 2px solid #d7dee6;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-3 {
+  border: 3px solid #d7dee6;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-3 {
+  border-top: 3px solid #d7dee6;
+  border-bottom: 3px solid #d7dee6;
+}
+
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-3 {
+  border-top: 3px solid #d7dee6;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-3 {
+  border-bottom: 3px solid #d7dee6;
+}
+
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-3 {
+  border-right: 3px solid #d7dee6;
+  border-left: 3px solid #d7dee6;
+}
+
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-3 {
+  border-right: 3px solid #d7dee6;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-3 {
+  border-left: 3px solid #d7dee6;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-4 {
+  border: 4px solid #d7dee6;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-4 {
+  border-top: 4px solid #d7dee6;
+  border-bottom: 4px solid #d7dee6;
+}
+
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-4 {
+  border-top: 4px solid #d7dee6;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-4 {
+  border-bottom: 4px solid #d7dee6;
+}
+
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-4 {
+  border-right: 4px solid #d7dee6;
+  border-left: 4px solid #d7dee6;
+}
+
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-4 {
+  border-right: 4px solid #d7dee6;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-4 {
+  border-left: 4px solid #d7dee6;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-5 {
+  border: 5px solid #d7dee6;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.by-5 {
+  border-top: 5px solid #d7dee6;
+  border-bottom: 5px solid #d7dee6;
+}
+
+/* line 19, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bt-5 {
+  border-top: 5px solid #d7dee6;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bb-5 {
+  border-bottom: 5px solid #d7dee6;
+}
+
+/* line 29, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bx-5 {
+  border-right: 5px solid #d7dee6;
+  border-left: 5px solid #d7dee6;
+}
+
+/* line 34, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.br-5 {
+  border-right: 5px solid #d7dee6;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.bl-5 {
+  border-left: 5px solid #d7dee6;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-1 {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-1 {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 58, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-1 {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-1 {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-1 {
+  border-radius: 4px;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-2 {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-2 {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* line 58, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-2 {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-2 {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-2 {
+  border-radius: 8px;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-3 {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-3 {
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* line 58, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-3 {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-3 {
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-3 {
+  border-radius: 12px;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-4 {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-4 {
+  border-bottom-right-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* line 58, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-4 {
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-4 {
+  border-bottom-left-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-4 {
+  border-radius: 16px;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-5 {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-5 {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* line 58, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-5 {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-5 {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-5 {
+  border-radius: 20px;
+}
+
+/* line 73, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-top-max {
+  border-top-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+}
+
+/* line 78, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-right-max {
+  border-bottom-right-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+/* line 83, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-bottom-max {
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+/* line 88, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-left-max {
+  border-bottom-left-radius: 9999px;
+  border-top-left-radius: 9999px;
+}
+
+/* line 93, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.rounded-max {
+  border-radius: 9999px;
+}
+
+/* line 99, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-1 {
+  border-color: #fff;
+}
+
+/* line 103, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-2 {
+  border-color: #f5f9fc;
+}
+
+/* line 107, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-3 {
+  border-color: #f1f4f7;
+}
+
+/* line 111, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-4 {
+  border-color: #d7dee6;
+}
+
+/* line 115, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-5 {
+  border-color: #9eadbe;
+}
+
+/* line 119, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-reverse {
+  border-color: #474763;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-green {
+  border-color: #37bb79;
+}
+
+/* line 127, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-blue {
+  border-color: #51adf8;
+}
+
+/* line 131, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-yellow {
+  border-color: #ffc14e;
+}
+
+/* line 135, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-salmon {
+  border-color: #fa8072;
+}
+
+/* line 139, ../../../projects/mischiefer/scss-only/addons/border.scss */
+.b-color-red {
+  border-color: #e34646;
+}
+
+/* line 3, ../../../projects/mischiefer/scss-only/addons/box-shadow.scss */
+.box-shadow {
+  box-shadow: 0px 4px 20px rgba(150, 177, 205, 0.1);
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
   font-weight: 700;
 }
 
-/* line 185, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 5, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+button {
+  text-decoration: none;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-purple {
+  background-color: #845dec;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-purple:hover {
+  background-color: #845dec;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-blue {
+  background-color: #51adf8;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-blue:hover {
+  background-color: #51adf8;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-green {
+  background-color: #37af73;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-green:hover {
+  background-color: #37af73;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-yellow {
+  background-color: #ffc14e;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-yellow:hover {
+  background-color: #ffc14e;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-salmon {
+  background-color: #fa8072;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-salmon:hover {
+  background-color: #fa8072;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-red {
+  background-color: #e34646;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-red:hover {
+  background-color: #e34646;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-reverse {
+  background-color: #474763;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  transition-duration: 0.2s !important;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-solid-reverse:hover {
+  background-color: #474763;
+  opacity: 1;
+  filter: brightness(1.2);
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-purple {
+  background-color: rgba(96, 67, 177, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #9470f5 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-purple:hover {
+  background-color: rgba(96, 67, 177, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-blue {
+  background-color: rgba(81, 173, 248, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #4795d4 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-blue:hover {
+  background-color: rgba(81, 173, 248, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-green {
+  background-color: rgba(59, 207, 133, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #37af73 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-green:hover {
+  background-color: rgba(59, 207, 133, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-yellow {
+  background-color: rgba(255, 193, 78, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #d69927 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-yellow:hover {
+  background-color: rgba(255, 193, 78, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-salmon {
+  background-color: rgba(250, 128, 114, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #e66759 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-salmon:hover {
+  background-color: rgba(250, 128, 114, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-red {
+  background-color: rgba(227, 70, 70, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #be4040 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-red:hover {
+  background-color: rgba(227, 70, 70, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse {
+  background-color: rgba(71, 71, 99, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  padding: 10px 18px;
+  color: #5d5d7a !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 42, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse:hover {
+  background-color: rgba(71, 71, 99, 0.2) !important;
+  opacity: 0.8;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-secondary-reverse-dark {
+  background-color: rgba(120, 120, 151, 0.2);
+  color: #9eadbe !important;
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty {
+  border: 1px solid black;
+  border-color: #9eadbe;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 9px 17px;
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #adafc3 !important;
+  transition-duration: 0.2s !important;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  opacity: 1;
+  filter: brightness(0.2);
+}
+
+/* line 70, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-dark {
+  border-color: #5d5d7a;
+  transition-duration: 0.2s !important;
+}
+
+/* line 75, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-dark:hover {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  filter: brightness(1.6);
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-1 {
+  padding: 14px 24px;
+}
+
+/* line 85, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-2 {
+  padding: 18px 36px;
+}
+
+/* line 89, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-3 {
+  padding: 22px 50px;
+}
+
+/* line 93, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-1 {
+  padding: 13px 23px;
+}
+
+/* line 97, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-2 {
+  padding: 17px 35px;
+}
+
+/* line 101, ../../../projects/mischiefer/scss-only/addons/buttons.scss */
+.button-empty-3 {
+  padding: 21px 49px;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 5, ../../../projects/mischiefer/scss-only/addons/card.scss */
+.card {
+  background-color: #fff;
+}
+
+/* line 9, ../../../projects/mischiefer/scss-only/addons/card.scss */
+.card-title {
+  border-bottom: 2px solid #f1f4f7;
+  padding: 1rem;
+}
+
+/* line 14, ../../../projects/mischiefer/scss-only/addons/card.scss */
+.card-content {
+  padding: 1.5rem 1rem;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 5, ../../../projects/mischiefer/scss-only/addons/containers.scss */
 .container {
   width: 100%;
   padding: 1rem;
@@ -181,19 +1023,283 @@ p {
 }
 
 @media (min-width: 900px) {
-  /* line 185, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 5, ../../../projects/mischiefer/scss-only/addons/containers.scss */
   .container {
     width: 70%;
     padding: 0;
   }
 }
 
-/* line 195, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 15, ../../../projects/mischiefer/scss-only/addons/containers.scss */
 .container-fluid {
   padding: 0 1rem;
 }
 
-/* line 201, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-none {
+  display: none;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-inline {
+  display: inline;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-block {
+  display: block;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-inline-block {
+  display: inline-block;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-flex {
+  display: flex;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-grid {
+  display: grid;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/display.scss */
+.d-contents {
+  display: contents;
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-block {
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-grid {
+    display: grid;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 14, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-sm-contents {
+    display: contents;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-none {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-block {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-grid {
+    display: grid;
+  }
+}
+
+@media (min-width: 900px) {
+  /* line 22, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-md-contents {
+    display: contents;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-none {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-block {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-grid {
+    display: grid;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 30, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-lg-contents {
+    display: contents;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-none {
+    display: none;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-inline {
+    display: inline;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-block {
+    display: block;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-inline-block {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-grid {
+    display: grid;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 38, ../../../projects/mischiefer/scss-only/addons/display.scss */
+  .d-xl-contents {
+    display: contents;
+  }
+}
+
+/* line 3, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -202,368 +1308,379 @@ p {
   margin: -0.5rem;
 }
 
-/* line 209, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 11, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-align-items-center {
   align-items: center;
 }
 
-/* line 213, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 15, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-align-items-end {
   align-items: flex-end;
 }
 
-/* line 217, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 19, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-justify-content-end {
   justify-content: end;
 }
 
-/* line 221, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 23, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-justify-content-center {
   justify-content: center;
 }
 
-/* line 225, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 27, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-justify-content-around {
   justify-content: space-around;
 }
 
-/* line 229, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 31, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-justify-content-between {
   justify-content: space-between;
 }
 
-/* line 233, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 35, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-justify-content-evenly {
   justify-content: space-evenly;
 }
 
-/* line 237, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 39, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-item {
   padding: 0.5rem;
   flex: 0 0 auto;
 }
 
-/* line 242, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 44, ../../../projects/mischiefer/scss-only/addons/flex.scss */
 .flex-no-wrap {
   flex-wrap: nowrap;
 }
 
-/* line 248, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.fixed-top {
-  position: fixed;
-  top: 0;
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
 }
 
-/* line 253, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.fixed-left {
-  position: fixed;
-  left: 0;
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
 }
 
-/* line 258, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.fixed-bottom {
-  position: fixed;
-  bottom: 0;
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
 }
 
-/* line 263, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.fixed-right {
-  position: fixed;
-  right: 0;
+/* line 5, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
 }
 
-/* line 270, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-button {
-  text-decoration: none;
-  border-radius: 0;
+/* line 13, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+form > * {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #d7dee6;
+  font-family: "Rubik", sans-serif;
+}
+
+/* line 20, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+input,
+textarea {
+  font-size: 0.95rem;
+  max-width: 800px;
+}
+
+/* line 26, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+input[type="color"] {
+  height: 60px;
+}
+
+/* line 30, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.form-dark > * {
+  border: 1px solid #474763;
+  background-color: #37374f;
+}
+
+/* line 35, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.form-dark input[type="checkbox"],
+.form-dark input[type="radio"],
+.form-dark input[type="range"] {
+  filter: invert(85%) hue-rotate(-200deg);
+}
+
+/* line 43, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.field,
+.actions {
   border: 0;
-  cursor: pointer;
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-purple {
-  background-color: #845dec;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-purple:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-blue {
-  background-color: #51adf8;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-blue:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-green {
-  background-color: #3bcf85;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-green:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-yellow {
-  background-color: #ffc14e;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-yellow:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-salmon {
-  background-color: #fa8072;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-salmon:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-red {
-  background-color: #e34646;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-red:hover {
-  filter: brightness(1.2);
-}
-
-/* line 279, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-reverse {
-  background-color: #474763;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  transition-duration: 0.2s !important;
-}
-
-/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-solid-reverse:hover {
-  filter: brightness(1.2);
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-purple {
-  background-color: rgba(96, 67, 177, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #9470f5 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-purple:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-blue {
-  background-color: rgba(81, 173, 248, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #4795d4 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-blue:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-green {
-  background-color: rgba(59, 207, 133, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #3faa75 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-green:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-yellow {
-  background-color: rgba(255, 193, 78, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #d69927 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-yellow:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-salmon {
-  background-color: rgba(250, 128, 114, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #e66759 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-salmon:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-red {
-  background-color: rgba(227, 70, 70, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #be4040 !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-red:hover {
-  opacity: 0.6;
-}
-
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-reverse {
-  background-color: rgba(71, 71, 99, 0.2);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 18px;
-  color: #5d5d7a !important;
-  transition-duration: 0.2s !important;
-}
-
-/* line 303, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-reverse:hover {
-  opacity: 0.6;
-}
-
-/* line 309, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-secondary-reverse-dark {
-  background-color: rgba(120, 120, 151, 0.2);
-  color: #9eadbe !important;
-}
-
-/* line 314, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty {
-  border: 1px solid black;
-  border-color: #9eadbe;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 9px 17px;
   background-color: rgba(0, 0, 0, 0);
-  color: #adafc3 !important;
-  transition-duration: 0.2s !important;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty:hover {
-  filter: brightness(0.2);
+/* line 49, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.field label {
+  font-weight: 700;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty-dark {
-  border-color: #5d5d7a;
-  transition-duration: 0.2s !important;
+/* line 53, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.field input,
+.field textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #d6d6d6;
+  width: 100%;
 }
 
-/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty-dark:hover {
-  filter: brightness(1.6);
+/* line 61, ../../../projects/mischiefer/scss-only/addons/forms.scss */
+.form-dark input,
+.form-dark textarea {
+  border: 1px solid #474763;
+  background-color: #37374f;
 }
 
-/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-1 {
-  padding: 14px 24px;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.m-1 {
+  margin: 0.5rem;
 }
 
-/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-2 {
-  padding: 18px 36px;
+/* line 12, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.my-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-/* line 346, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-3 {
-  padding: 22px 50px;
+/* line 17, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mt-1 {
+  margin-top: 0.5rem;
 }
 
-/* line 350, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty-1 {
-  padding: 13px 23px;
+/* line 21, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mb-1 {
+  margin-bottom: 0.5rem;
 }
 
-/* line 354, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty-2 {
-  padding: 17px 35px;
+/* line 27, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-1 {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
-/* line 358, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.button-empty-3 {
-  padding: 21px 49px;
+/* line 32, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mr-1 {
+  margin-right: 0.5rem;
 }
 
-/* line 364, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.card {
-  background-color: #fff;
+/* line 36, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.ml-1 {
+  margin-left: 0.5rem;
 }
 
-/* line 368, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.card-title {
-  border-bottom: 2px solid #f1f4f7;
-  padding: 1rem;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.m-2 {
+  margin: 1rem;
 }
 
-/* line 373, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.card-content {
-  padding: 1.5rem 1rem;
+/* line 12, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-/* line 379, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 17, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mt-2 {
+  margin-top: 1rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-2 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mr-2 {
+  margin-right: 1rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.ml-2 {
+  margin-left: 1rem;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.m-3 {
+  margin: 1.5rem;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.my-3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* line 17, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-3 {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.m-4 {
+  margin: 2rem;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.my-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 17, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mt-4 {
+  margin-top: 2rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-4 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mr-4 {
+  margin-right: 2rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.ml-4 {
+  margin-left: 2rem;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.m-5 {
+  margin: 2.5rem;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.my-5 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* line 17, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mt-5 {
+  margin-top: 2.5rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-5 {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mr-5 {
+  margin-right: 2.5rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.ml-5 {
+  margin-left: 2.5rem;
+}
+
+/* line 41, ../../../projects/mischiefer/scss-only/addons/margin.scss */
+.mx-auto {
+  margin: 0 auto;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 5, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar {
   width: 100%;
   height: 70px;
@@ -572,12 +1689,12 @@ button {
   z-index: 20;
 }
 
-/* line 387, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 13, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .has-navbar {
   margin-top: 70px;
 }
 
-/* line 391, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 17, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar-1 {
   width: 100%;
   height: 50px;
@@ -586,12 +1703,12 @@ button {
   z-index: 20;
 }
 
-/* line 399, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 25, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .has-navbar-1 {
   margin-top: 50px;
 }
 
-/* line 403, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 29, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar-2 {
   width: 100%;
   height: 90px;
@@ -600,12 +1717,12 @@ button {
   z-index: 20;
 }
 
-/* line 411, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 37, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .has-navbar-2 {
   margin-top: 90px;
 }
 
-/* line 415, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 41, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar-3 {
   width: 100%;
   height: 110px;
@@ -614,12 +1731,12 @@ button {
   z-index: 20;
 }
 
-/* line 423, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 49, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .has-navbar-3 {
   margin-top: 110px;
 }
 
-/* line 427, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 53, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -629,1575 +1746,913 @@ button {
 }
 
 @media (min-width: 900px) {
-  /* line 427, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 53, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
   .navbar-container {
     width: 70%;
     padding: 0;
   }
 }
 
-/* line 439, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 65, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
+.navbar-container-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 73, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
 .navbar-brand {
   text-decoration: none;
 }
 
-/* line 443, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.navbar-container ul {
+/* line 77, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
+.navbar-container ul,
+.navbar-container-full ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
-/* line 448, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.navbar-container li {
+/* line 84, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
+.navbar-container li,
+.navbar-container-full li {
   margin-left: 0.8rem;
 }
 
-/* line 454, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.box-shadow {
-  box-shadow: 0px 4px 20px rgba(150, 177, 205, 0.1);
+/* line 89, ../../../projects/mischiefer/scss-only/addons/navbar.scss */
+.navbar-container a,
+.navbar-container-full a {
+  text-decoration: none;
 }
 
-/* line 461, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-1 {
-  background-color: #fff;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.p-1 {
+  padding: 0.5rem;
 }
 
-/* line 461, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-2 {
-  background-color: #f9fcff;
+/* line 12, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.py-1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-/* line 461, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-3 {
-  background-color: #f1f4f7;
+/* line 17, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pt-1 {
+  padding-top: 0.5rem;
 }
 
-/* line 461, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-4 {
-  background-color: #d7dee6;
+/* line 21, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pb-1 {
+  padding-bottom: 0.5rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-purple {
-  background-color: #845dec;
+/* line 27, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.px-1 {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-blue {
-  background-color: #51adf8;
+/* line 32, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pr-1 {
+  padding-right: 0.5rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-green {
-  background-color: #3bcf85;
+/* line 36, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pl-1 {
+  padding-left: 0.5rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-yellow {
-  background-color: #ffc14e;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.p-2 {
+  padding: 1rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-salmon {
-  background-color: #fa8072;
+/* line 12, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.py-2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-/* line 468, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-red {
-  background-color: #e34646;
+/* line 17, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pt-2 {
+  padding-top: 1rem;
 }
 
-/* line 473, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-reverse {
-  background-color: #474763;
+/* line 21, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pb-2 {
+  padding-bottom: 1rem;
 }
 
-/* line 477, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-green {
-  background-color: #3bcf85;
+/* line 27, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.px-2 {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-/* line 481, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-blue {
-  background-color: #51adf8;
+/* line 32, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pr-2 {
+  padding-right: 1rem;
 }
 
-/* line 485, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-yellow {
-  background-color: #ffc14e;
+/* line 36, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pl-2 {
+  padding-left: 1rem;
 }
 
-/* line 489, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-salmon {
-  background-color: #fa8072;
+/* line 6, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.p-3 {
+  padding: 1.5rem;
 }
 
-/* line 493, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bg-color-red {
-  background-color: #e34646;
+/* line 12, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.py-3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 17, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pt-3 {
+  padding-top: 1.5rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pb-3 {
+  padding-bottom: 1.5rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.px-3 {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pr-3 {
+  padding-right: 1.5rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pl-3 {
+  padding-left: 1.5rem;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.p-4 {
+  padding: 2rem;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.py-4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 17, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pt-4 {
+  padding-top: 2rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pb-4 {
+  padding-bottom: 2rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.px-4 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pr-4 {
+  padding-right: 2rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pl-4 {
+  padding-left: 2rem;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.p-5 {
+  padding: 2.5rem;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.py-5 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* line 17, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pt-5 {
+  padding-top: 2.5rem;
+}
+
+/* line 21, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pb-5 {
+  padding-bottom: 2.5rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.px-5 {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+/* line 32, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pr-5 {
+  padding-right: 2.5rem;
+}
+
+/* line 36, ../../../projects/mischiefer/scss-only/addons/padding.scss */
+.pl-5 {
+  padding-left: 2.5rem;
+}
+
+/* line 3, ../../../projects/mischiefer/scss-only/addons/positioning.scss */
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/positioning.scss */
+.fixed-left {
+  position: fixed;
+  left: 0;
+}
+
+/* line 13, ../../../projects/mischiefer/scss-only/addons/positioning.scss */
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+/* line 18, ../../../projects/mischiefer/scss-only/addons/positioning.scss */
+.fixed-right {
+  position: fixed;
+  right: 0;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-1 {
   width: 8.33333%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-2 {
   width: 16.66667%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-3 {
   width: 25%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-4 {
   width: 33.33333%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-5 {
   width: 41.66667%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-6 {
   width: 50%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-7 {
   width: 58.33333%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-8 {
   width: 66.66667%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-9 {
   width: 75%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-10 {
   width: 83.33333%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-11 {
   width: 91.66667%;
 }
 
-/* line 500, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 6, ../../../projects/mischiefer/scss-only/addons/size.scss */
 .col-12 {
   width: 100%;
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-1 {
     width: 8.33333%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-2 {
     width: 16.66667%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-3 {
     width: 25%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-4 {
     width: 33.33333%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-5 {
     width: 41.66667%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-6 {
     width: 50%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-7 {
     width: 58.33333%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-8 {
     width: 66.66667%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-9 {
     width: 75%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-10 {
     width: 83.33333%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-11 {
     width: 91.66667%;
   }
 }
 
 @media (min-width: 600px) {
-  /* line 506, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 12, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-sm-12 {
     width: 100%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-1 {
     width: 8.33333%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-2 {
     width: 16.66667%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-3 {
     width: 25%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-4 {
     width: 33.33333%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-5 {
     width: 41.66667%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-6 {
     width: 50%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-7 {
     width: 58.33333%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-8 {
     width: 66.66667%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-9 {
     width: 75%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-10 {
     width: 83.33333%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-11 {
     width: 91.66667%;
   }
 }
 
 @media (min-width: 900px) {
-  /* line 514, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 20, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-md-12 {
     width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-1 {
     width: 8.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-2 {
     width: 16.66667%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-3 {
     width: 25%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-4 {
     width: 33.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-5 {
     width: 41.66667%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-6 {
     width: 50%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-7 {
     width: 58.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-8 {
     width: 66.66667%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-9 {
     width: 75%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-10 {
     width: 83.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-11 {
     width: 91.66667%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 522, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 28, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-lg-12 {
     width: 100%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-1 {
     width: 8.33333%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-2 {
     width: 16.66667%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-3 {
     width: 25%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-4 {
     width: 33.33333%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-5 {
     width: 41.66667%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-6 {
     width: 50%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-7 {
     width: 58.33333%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-8 {
     width: 66.66667%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-9 {
     width: 75%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-10 {
     width: 83.33333%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-11 {
     width: 91.66667%;
   }
 }
 
 @media (min-width: 1800px) {
-  /* line 530, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+  /* line 36, ../../../projects/mischiefer/scss-only/addons/size.scss */
   .col-xl-12 {
     width: 100%;
   }
 }
 
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-none {
-  display: none;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-inline {
-  display: inline;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-block {
-  display: block;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-inline-block {
-  display: inline-block;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-flex {
-  display: flex;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-grid {
-  display: grid;
-}
-
-/* line 542, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.d-contents {
-  display: contents;
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-none {
-    display: none;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-inline {
-    display: inline;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-block {
-    display: block;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-inline-block {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-flex {
-    display: flex;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-grid {
-    display: grid;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 548, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-sm-contents {
-    display: contents;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-none {
-    display: none;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-inline {
-    display: inline;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-block {
-    display: block;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-inline-block {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-flex {
-    display: flex;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-grid {
-    display: grid;
-  }
-}
-
-@media (min-width: 900px) {
-  /* line 556, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-md-contents {
-    display: contents;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-none {
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-inline {
-    display: inline;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-block {
-    display: block;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-inline-block {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-flex {
-    display: flex;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-grid {
-    display: grid;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 564, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-lg-contents {
-    display: contents;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-none {
-    display: none;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-inline {
-    display: inline;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-block {
-    display: block;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-inline-block {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-flex {
-    display: flex;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-grid {
-    display: grid;
-  }
-}
-
-@media (min-width: 1800px) {
-  /* line 572, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-  .d-xl-contents {
-    display: contents;
-  }
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-0 {
-  border: 0px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-0 {
-  border-top: 0px solid #d7dee6;
-  border-bottom: 0px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-0 {
-  border-top: 0px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-0 {
-  border-bottom: 0px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-0 {
-  border-right: 0px solid #d7dee6;
-  border-left: 0px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-0 {
-  border-right: 0px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-0 {
-  border-left: 0px solid #d7dee6;
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-1 {
-  border: 1px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-1 {
-  border-top: 1px solid #d7dee6;
-  border-bottom: 1px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-1 {
-  border-top: 1px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-1 {
-  border-bottom: 1px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-1 {
-  border-right: 1px solid #d7dee6;
-  border-left: 1px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-1 {
-  border-right: 1px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-1 {
-  border-left: 1px solid #d7dee6;
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-2 {
-  border: 2px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-2 {
-  border-top: 2px solid #d7dee6;
-  border-bottom: 2px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-2 {
-  border-top: 2px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-2 {
-  border-bottom: 2px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-2 {
-  border-right: 2px solid #d7dee6;
-  border-left: 2px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-2 {
-  border-right: 2px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-2 {
-  border-left: 2px solid #d7dee6;
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-3 {
-  border: 3px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-3 {
-  border-top: 3px solid #d7dee6;
-  border-bottom: 3px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-3 {
-  border-top: 3px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-3 {
-  border-bottom: 3px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-3 {
-  border-right: 3px solid #d7dee6;
-  border-left: 3px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-3 {
-  border-right: 3px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-3 {
-  border-left: 3px solid #d7dee6;
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-4 {
-  border: 4px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-4 {
-  border-top: 4px solid #d7dee6;
-  border-bottom: 4px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-4 {
-  border-top: 4px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-4 {
-  border-bottom: 4px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-4 {
-  border-right: 4px solid #d7dee6;
-  border-left: 4px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-4 {
-  border-right: 4px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-4 {
-  border-left: 4px solid #d7dee6;
-}
-
-/* line 584, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-5 {
-  border: 5px solid #d7dee6;
-}
-
-/* line 590, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.by-5 {
-  border-top: 5px solid #d7dee6;
-  border-bottom: 5px solid #d7dee6;
-}
-
-/* line 595, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bt-5 {
-  border-top: 5px solid #d7dee6;
-}
-
-/* line 599, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bb-5 {
-  border-bottom: 5px solid #d7dee6;
-}
-
-/* line 605, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bx-5 {
-  border-right: 5px solid #d7dee6;
-  border-left: 5px solid #d7dee6;
-}
-
-/* line 610, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.br-5 {
-  border-right: 5px solid #d7dee6;
-}
-
-/* line 614, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.bl-5 {
-  border-left: 5px solid #d7dee6;
-}
-
-/* line 624, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-1 {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}
-
-/* line 629, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-1 {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-/* line 634, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-1 {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-
-/* line 639, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-1 {
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-}
-
-/* line 644, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-1 {
-  border-radius: 4px;
-}
-
-/* line 624, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-2 {
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-}
-
-/* line 629, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-2 {
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-/* line 634, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-2 {
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-/* line 639, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-2 {
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-}
-
-/* line 644, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-2 {
-  border-radius: 8px;
-}
-
-/* line 624, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-3 {
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
-}
-
-/* line 629, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-3 {
-  border-bottom-right-radius: 12px;
-  border-top-right-radius: 12px;
-}
-
-/* line 634, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-3 {
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-}
-
-/* line 639, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-3 {
-  border-bottom-left-radius: 12px;
-  border-top-left-radius: 12px;
-}
-
-/* line 644, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-3 {
-  border-radius: 12px;
-}
-
-/* line 624, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-4 {
-  border-top-right-radius: 16px;
-  border-top-left-radius: 16px;
-}
-
-/* line 629, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-4 {
-  border-bottom-right-radius: 16px;
-  border-top-right-radius: 16px;
-}
-
-/* line 634, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-4 {
-  border-bottom-right-radius: 16px;
-  border-bottom-left-radius: 16px;
-}
-
-/* line 639, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-4 {
-  border-bottom-left-radius: 16px;
-  border-top-left-radius: 16px;
-}
-
-/* line 644, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-4 {
-  border-radius: 16px;
-}
-
-/* line 624, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-5 {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-}
-
-/* line 629, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-5 {
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-/* line 634, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-5 {
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-/* line 639, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-5 {
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-}
-
-/* line 644, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-5 {
-  border-radius: 20px;
-}
-
-/* line 649, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-top-max {
-  border-top-right-radius: 9999px;
-  border-top-left-radius: 9999px;
-}
-
-/* line 654, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-right-max {
-  border-bottom-right-radius: 9999px;
-  border-top-right-radius: 9999px;
-}
-
-/* line 659, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-bottom-max {
-  border-bottom-right-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
-/* line 664, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-left-max {
-  border-bottom-left-radius: 9999px;
-  border-top-left-radius: 9999px;
-}
-
-/* line 669, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.rounded-max {
-  border-radius: 9999px;
-}
-
-/* line 675, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-1 {
-  border-color: #fff;
-}
-
-/* line 679, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-2 {
-  border-color: #f9fcff;
-}
-
-/* line 683, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-3 {
-  border-color: #f1f4f7;
-}
-
-/* line 687, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-4 {
-  border-color: #d7dee6;
-}
-
-/* line 691, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-5 {
-  border-color: #9eadbe;
-}
-
-/* line 695, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-reverse {
-  border-color: #474763;
-}
-
-/* line 699, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-green {
-  border-color: #3bcf85;
-}
-
-/* line 703, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-blue {
-  border-color: #51adf8;
-}
-
-/* line 707, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-yellow {
-  border-color: #ffc14e;
-}
-
-/* line 711, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-salmon {
-  border-color: #fa8072;
-}
-
-/* line 715, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.b-color-red {
-  border-color: #e34646;
-}
-
-/* line 724, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.p-1 {
-  padding: 0.5rem;
-}
-
-/* line 730, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.py-1 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-/* line 735, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pt-1 {
-  padding-top: 0.5rem;
-}
-
-/* line 739, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pb-1 {
-  padding-bottom: 0.5rem;
-}
-
-/* line 745, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.px-1 {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-/* line 750, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pr-1 {
-  padding-right: 0.5rem;
-}
-
-/* line 754, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pl-1 {
-  padding-left: 0.5rem;
-}
-
-/* line 724, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.p-2 {
-  padding: 1rem;
-}
-
-/* line 730, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.py-2 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-/* line 735, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pt-2 {
-  padding-top: 1rem;
-}
-
-/* line 739, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pb-2 {
-  padding-bottom: 1rem;
-}
-
-/* line 745, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.px-2 {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-/* line 750, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pr-2 {
-  padding-right: 1rem;
-}
-
-/* line 754, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pl-2 {
-  padding-left: 1rem;
-}
-
-/* line 724, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.p-3 {
-  padding: 1.5rem;
-}
-
-/* line 730, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.py-3 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-/* line 735, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pt-3 {
-  padding-top: 1.5rem;
-}
-
-/* line 739, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pb-3 {
-  padding-bottom: 1.5rem;
-}
-
-/* line 745, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.px-3 {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-/* line 750, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pr-3 {
-  padding-right: 1.5rem;
-}
-
-/* line 754, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pl-3 {
-  padding-left: 1.5rem;
-}
-
-/* line 724, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.p-4 {
-  padding: 2rem;
-}
-
-/* line 730, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.py-4 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-/* line 735, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pt-4 {
-  padding-top: 2rem;
-}
-
-/* line 739, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pb-4 {
-  padding-bottom: 2rem;
-}
-
-/* line 745, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.px-4 {
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-/* line 750, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pr-4 {
-  padding-right: 2rem;
-}
-
-/* line 754, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pl-4 {
-  padding-left: 2rem;
-}
-
-/* line 724, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.p-5 {
-  padding: 2.5rem;
-}
-
-/* line 730, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.py-5 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-/* line 735, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pt-5 {
-  padding-top: 2.5rem;
-}
-
-/* line 739, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pb-5 {
-  padding-bottom: 2.5rem;
-}
-
-/* line 745, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.px-5 {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-}
-
-/* line 750, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pr-5 {
-  padding-right: 2.5rem;
-}
-
-/* line 754, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.pl-5 {
-  padding-left: 2.5rem;
-}
-
-/* line 764, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.m-1 {
-  margin: 0.5rem;
-}
-
-/* line 770, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.my-1 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* line 775, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mt-1 {
-  margin-top: 0.5rem;
-}
-
-/* line 779, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mb-1 {
-  margin-bottom: 0.5rem;
-}
-
-/* line 785, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-1 {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-}
-
-/* line 790, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mr-1 {
-  margin-right: 0.5rem;
-}
-
-/* line 794, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.ml-1 {
-  margin-left: 0.5rem;
-}
-
-/* line 764, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.m-2 {
-  margin: 1rem;
-}
-
-/* line 770, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.my-2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-/* line 775, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mt-2 {
-  margin-top: 1rem;
-}
-
-/* line 779, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mb-2 {
-  margin-bottom: 1rem;
-}
-
-/* line 785, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-2 {
-  margin-right: 1rem;
-  margin-left: 1rem;
-}
-
-/* line 790, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mr-2 {
-  margin-right: 1rem;
-}
-
-/* line 794, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.ml-2 {
-  margin-left: 1rem;
-}
-
-/* line 764, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.m-3 {
-  margin: 1.5rem;
-}
-
-/* line 770, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.my-3 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* line 775, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mt-3 {
-  margin-top: 1.5rem;
-}
-
-/* line 779, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mb-3 {
-  margin-bottom: 1.5rem;
-}
-
-/* line 785, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-3 {
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
-}
-
-/* line 790, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mr-3 {
-  margin-right: 1.5rem;
-}
-
-/* line 794, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.ml-3 {
-  margin-left: 1.5rem;
-}
-
-/* line 764, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.m-4 {
-  margin: 2rem;
-}
-
-/* line 770, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.my-4 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-/* line 775, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mt-4 {
-  margin-top: 2rem;
-}
-
-/* line 779, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mb-4 {
-  margin-bottom: 2rem;
-}
-
-/* line 785, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-4 {
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
-
-/* line 790, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mr-4 {
-  margin-right: 2rem;
-}
-
-/* line 794, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.ml-4 {
-  margin-left: 2rem;
-}
-
-/* line 764, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.m-5 {
-  margin: 2.5rem;
-}
-
-/* line 770, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.my-5 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-/* line 775, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mt-5 {
-  margin-top: 2.5rem;
-}
-
-/* line 779, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mb-5 {
-  margin-bottom: 2.5rem;
-}
-
-/* line 785, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-5 {
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
-}
-
-/* line 790, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mr-5 {
-  margin-right: 2.5rem;
-}
-
-/* line 794, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.ml-5 {
-  margin-left: 2.5rem;
-}
-
-/* line 799, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-.mx-auto {
-  margin: 0 auto;
-}
-
-/* line 811, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 64, ../../../projects/mischiefer/scss-only/addons/configs.scss */
 * {
-  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
 }
 
-/* line 813, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-body.dark * {
-  background-color: #37374f;
+/* line 77, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../../../projects/mischiefer/scss-only/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 7, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h1 {
+  font-size: 2rem;
+}
+
+/* line 11, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h2 {
+  font-size: 1.8rem;
+}
+
+/* line 15, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h3 {
+  font-size: 1.6rem;
+}
+
+/* line 19, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h4 {
+  font-size: 1.4rem;
+}
+
+/* line 23, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h5 {
+  font-size: 1.2rem;
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/addons/text.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 34, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-ff-title {
+  font-family: "Signika", sans-serif !important;
+}
+
+/* line 38, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-ff-text {
+  font-family: "Rubik", sans-serif !important;
+}
+
+/* line 44, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-lh-1 {
+  line-height: 1;
+}
+
+/* line 48, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-lh-2 {
+  line-height: 1.2;
+}
+
+/* line 52, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-lh-3,
+p {
+  line-height: 1.5;
+}
+
+/* line 57, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-lh-4 {
+  line-height: 2;
+}
+
+/* line 63, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-default {
+  font-size: 0.95rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-1 {
+  font-size: 1rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-2 {
+  font-size: 1.5rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-3 {
+  font-size: 2rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-4 {
+  font-size: 2.5rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-5 {
+  font-size: 3rem;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-fs-6 {
+  font-size: 3.5rem;
+}
+
+/* line 75, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-regular {
+  font-weight: 300;
+}
+
+/* line 79, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-medium {
+  font-weight: 500;
+}
+
+/* line 83, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-bold {
+  font-weight: 700;
+}
+
+/* line 89, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-align-center {
+  text-align: center;
+}
+
+/* line 93, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-align-start {
+  text-align: start;
+}
+
+/* line 97, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-align-end {
+  text-align: end;
+}
+
+/* line 101, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-align-justify {
+  text-align: justify;
+}
+
+/* line 108, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-1 {
+  color: #474763;
+}
+
+/* line 112, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-light-1 {
+  color: #f1f4f7 !important;
+}
+
+/* line 116, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-dark-1 {
+  color: #474763 !important;
+}
+
+/* line 108, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-2 {
+  color: #5d5d7a;
+}
+
+/* line 112, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-light-2 {
+  color: #d7dee6 !important;
+}
+
+/* line 116, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-dark-2 {
+  color: #5d5d7a !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-purple {
+  color: #845dec !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-blue {
+  color: #51adf8 !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-green {
+  color: #37af73 !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-yellow {
+  color: #ffc14e !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-salmon {
+  color: #fa8072 !important;
+}
+
+/* line 123, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-color-red {
+  color: #e34646 !important;
+}
+
+/* line 128, ../../../projects/mischiefer/scss-only/addons/text.scss */
+.text-subtitle {
+  color: #9eadbe;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=mischiefer.css.map */

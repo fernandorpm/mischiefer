@@ -1,0 +1,103 @@
+@import 'configs';
+
+// BUTTON =======================================================================
+
+button {
+  text-decoration: none;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+@for $i from 1 to 8 {
+  $name: unquote(nth($all-colors-name, $i));
+  .button-solid-#{$name} {
+    background-color: nth($all-colors, $i);
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    padding: 10px 18px;
+    transition-duration: 0.2s !important;
+  }
+
+  .button-solid-#{$name}:hover {
+    background-color: nth($all-colors, $i);
+    opacity: 1;
+    filter: brightness(1.2);
+  }
+}
+
+@for $i from 1 to 8 {
+  $name: unquote(nth($all-colors-name, $i));
+  .button-secondary-#{$name} {
+    background-color: nth($all-colors-low-opacity, $i);
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    padding: 10px 18px;
+    color: nth($all-colors-dark, $i) !important;
+    transition-duration: 0.2s !important;
+  }
+
+  .button-secondary-#{$name}:hover {
+    background-color: nth($all-colors-low-opacity, $i) !important;
+    opacity: 0.8;
+  }
+}
+
+.button-secondary-reverse-dark {
+  background-color: rgba(120, 120, 151, 0.2);
+  color: $light5 !important;
+}
+
+.button-empty {
+  border: 1px solid black;
+  border-color: $light5;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 9px 17px;
+  background-color: rgba(0,0,0,0) !important;
+  color: $dark5 !important;
+  transition-duration: 0.2s !important;
+}
+
+.button-empty:hover {
+  background-color: rgba(0,0,0,0) !important;
+  opacity: 1;
+  filter: brightness(0.2);
+}
+
+.button-empty-dark {
+  border-color: $dark4;
+  transition-duration: 0.2s !important;
+}
+
+.button-empty-dark:hover {
+  background-color: rgba(0,0,0,0);
+  opacity: 1;
+  filter: brightness(1.6);
+}
+
+.button-1 {
+  padding: 14px 24px;
+}
+
+.button-2 {
+  padding: 18px 36px;
+}
+
+.button-3 {
+  padding: 22px 50px;
+}
+
+.button-empty-1 {
+  padding: 13px 23px;
+}
+
+.button-empty-2 {
+  padding: 17px 35px;
+}
+
+.button-empty-3 {
+  padding: 21px 49px;
+}

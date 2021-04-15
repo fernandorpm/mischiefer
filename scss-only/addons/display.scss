@@ -1,0 +1,43 @@
+@import 'configs';
+
+// DISPLAY ======================================================================
+
+$display-types: none, inline, block, inline-block, flex, grid, contents, initial;
+
+@for $i from 1 to length($display-types) {
+  .d-#{nth($display-types, $i)} {
+    display: nth($display-types, $i);
+  }
+}
+
+@for $i from 1 to length($display-types) {
+  .d-sm-#{nth($display-types, $i)} {
+    @include sm {
+      display: nth($display-types, $i);
+    }
+  }
+}
+
+@for $i from 1 to length($display-types) {
+  .d-md-#{nth($display-types, $i)} {
+    @include md {
+      display: nth($display-types, $i);
+    }
+  }
+}
+
+@for $i from 1 to length($display-types) {
+  .d-lg-#{nth($display-types, $i)} {
+    @include lg {
+      display: nth($display-types, $i);
+    }
+  }
+}
+
+@for $i from 1 to length($display-types) {
+  .d-xl-#{nth($display-types, $i)} {
+    @include xl {
+      display: nth($display-types, $i);
+    }
+  }
+}
