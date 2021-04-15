@@ -1,0 +1,46 @@
+// FLEX =========================================================================
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+  margin: -0.5rem;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-align-items-end {
+  align-items: flex-end;
+}
+
+.flex-justify-content-end {
+  justify-content: end;
+}
+
+.flex-justify-content-center {
+  justify-content: center;
+}
+
+.flex-justify-content-around {
+  justify-content: space-around;
+}
+
+.flex-justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  padding: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}

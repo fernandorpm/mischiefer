@@ -1,0 +1,141 @@
+@import 'configs';
+
+// BORDER =======================================================================
+
+// Self
+
+@for $i from 0 to 6 {
+  .b-#{$i} {
+    border: $i * 1px solid $light4;
+  }
+
+  // Vertical
+
+  .by-#{$i} {
+    border-top: $i * 1px solid $light4;
+    border-bottom: $i * 1px solid $light4;
+  }
+
+  .bt-#{$i} {
+    border-top: $i * 1px solid $light4;
+  }
+
+  .bb-#{$i} {
+    border-bottom: $i * 1px solid $light4;
+  }
+
+  // Horizontal
+
+  .bx-#{$i} {
+    border-right: $i * 1px solid $light4;
+    border-left: $i * 1px solid $light4;
+  }
+
+  .br-#{$i} {
+    border-right: $i * 1px solid $light4;
+  }
+
+  .bl-#{$i} {
+    border-left: $i * 1px solid $light4;
+  }
+}
+
+// Radius
+
+@for $i from 1 to 6 {
+  $size: 4px * $i;
+
+  .rounded-top-#{$i} {
+    border-top-right-radius: $size;
+    border-top-left-radius: $size;
+  }
+  
+  .rounded-right-#{$i} {
+    border-bottom-right-radius: $size;
+    border-top-right-radius: $size;
+  }
+  
+  .rounded-bottom-#{$i} {
+    border-bottom-right-radius: $size;
+    border-bottom-left-radius: $size;
+  }
+  
+  .rounded-left-#{$i} {
+    border-bottom-left-radius: $size;
+    border-top-left-radius: $size;
+  }
+  
+  .rounded-#{$i} {
+    border-radius: $size;
+  }
+}
+
+.rounded-top-max {
+  border-top-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+}
+
+.rounded-right-max {
+  border-bottom-right-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rounded-bottom-max {
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+.rounded-left-max {
+  border-bottom-left-radius: 9999px;
+  border-top-left-radius: 9999px;
+}
+
+.rounded-max {
+  border-radius: 9999px;
+}
+
+// Color
+
+.b-color-1 {
+  border-color: $light1;
+}
+
+.b-color-2 {
+  border-color: $light2;
+}
+
+.b-color-3 {
+  border-color: $light3;
+}
+
+.b-color-4 {
+  border-color: $light4;
+}
+
+.b-color-5 {
+  border-color: $light5;
+}
+
+.b-color-reverse {
+  border-color: $dark3;
+}
+
+.b-color-green {
+  border-color: #37bb79;
+}
+
+.b-color-blue {
+  border-color: #51adf8;
+}
+
+.b-color-yellow {
+  border-color: #ffc14e;
+}
+
+.b-color-salmon {
+  border-color: #fa8072;
+}
+
+.b-color-red {
+  border-color: #e34646;
+}

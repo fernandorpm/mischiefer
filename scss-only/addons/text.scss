@@ -1,0 +1,131 @@
+@import 'configs';
+
+// TEXT =========================================================================
+
+// Title
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+
+// Family
+
+.text-ff-title {
+  font-family: $title !important;
+}
+
+.text-ff-text {
+  font-family: $text !important;
+}
+
+// Line Height
+
+.text-lh-1 {
+  line-height: 1;
+}
+
+.text-lh-2 {
+  line-height: 1.2;
+}
+
+.text-lh-3,
+p {
+  line-height: 1.5;
+}
+
+.text-lh-4 {
+  line-height: 2;
+}
+
+// Size
+
+.text-fs-default {
+  font-size: 0.95rem;
+}
+
+@for $i from 1 to 7 {
+  .text-fs-#{$i} {
+    font-size: 0.5rem + (0.5rem * $i);
+  }
+}
+
+// Weight
+
+.text-regular {
+  font-weight: $regular;
+}
+
+.text-medium {
+  font-weight: $medium;
+}
+
+.text-bold {
+  font-weight: $bold;
+}
+
+// Position
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+// Colors
+
+@for $i from 1 to length($mono-colors) {
+  .text-color-#{$i} {
+    color: nth($mono-colors, $i);
+  }
+
+  .text-light-#{$i} {
+    color: nth($mono-colors-light, $i) !important;
+  }
+
+  .text-dark-#{$i} {
+    color: nth($mono-colors, $i) !important;
+  }
+}
+
+@for $i from 1 to length($all-colors) {
+  $name: unquote(nth($all-colors-name, $i));
+  .text-color-#{$name} {
+    color: nth($all-colors, $i) !important;
+  }
+}
+
+.text-subtitle {
+  color: $light5;
+  font-weight: $bold;
+}

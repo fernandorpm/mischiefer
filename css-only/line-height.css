@@ -1,0 +1,22 @@
+/* line 3, ../../../projects/mischiefer/scss-only/line-height.scss */
+.text-lh-1 {
+  line-height: 1;
+}
+
+/* line 7, ../../../projects/mischiefer/scss-only/line-height.scss */
+.text-lh-2 {
+  line-height: 1.2;
+}
+
+/* line 11, ../../../projects/mischiefer/scss-only/line-height.scss */
+.text-lh-3,
+p {
+  line-height: 1.5;
+}
+
+/* line 16, ../../../projects/mischiefer/scss-only/line-height.scss */
+.text-lh-4 {
+  line-height: 2;
+}
+
+/*# sourceMappingURL=line-height.css.map */
