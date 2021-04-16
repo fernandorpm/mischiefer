@@ -24,15 +24,46 @@
 // Apply light/dark rules globally (?)
 
 :root {
-  --color-page-background: #{$light1};
-  --color-text: #{$dark1};
+  /* Colors */
+  --light1: #fff;
+  --light2: #f5f9fc;
+  --light3: #f1f4f7;
+  --light4: #d7dee6;
+  --light4: #9eadbe;
+  
+  --dark1: #37374f;
+  --dark2: #2f2f40;
+  --dark3: #474763;
+  --dark4: #5d5d7a;
+  --dark5: #adafc3;
 }
 
-body {
-  background-color: var(--color-page-background);
-  color: var(--color-text);
+// LIGHT MODE
+* {
+  color: var(--dark4);
 }
 
+.navbar,
+.navbar-1,
+.navbar-2,
+.navbar-3 {
+  background-color: var(--light1);
+}
+
+.text-color-1 {
+  color: var(--dark3);
+}
+
+.text-color-2 {
+  color: var(--dark4);
+}
+
+.text-color-3 {
+  color: var(--dark5);
+} 
+
+
+// DARK MODE
 .dark {
   --color-page-background: #{$dark1};
   --color-text: #{$light1};

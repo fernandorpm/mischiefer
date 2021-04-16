@@ -32,15 +32,15 @@ function MakeItLight() {
   //SetBaseTextColor(dark4);
 
   // Background Color
-  SetBackgroundColor(light1, 'navbar');
-  SetBackgroundColor(light1, 'navbar-1');
-  SetBackgroundColor(light1, 'navbar-2');
-  SetBackgroundColor(light1, 'navbar-3');
+  //SetBackgroundColor(light1, 'navbar');
+  //SetBackgroundColor(light1, 'navbar-1');
+  //SetBackgroundColor(light1, 'navbar-2');
+  //SetBackgroundColor(light1, 'navbar-3');
 
   // Text Color
-  SetTextColor(dark3, 'text-color-1');
-  SetTextColor(dark4, 'text-color-2');
-  SetTextColor(dark5, 'text-color-3');
+  //SetTextColor(dark3, 'text-color-1');
+  //SetTextColor(dark4, 'text-color-2');
+  //SetTextColor(dark5, 'text-color-3');
 
   // Mischiefer Logo
   RemoveClass('mischiefer-face-dark', 'mischiefer-face');

@@ -2721,17 +2721,48 @@ body.dark .text-dark-2 {
 
 /* line 26, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 :root {
-  --color-page-background: #fff;
-  --color-text: #37374f;
+  /* Colors */
+  --light1: #fff;
+  --light2: #f5f9fc;
+  --light3: #f1f4f7;
+  --light4: #d7dee6;
+  --light4: #9eadbe;
+  --dark1: #37374f;
+  --dark2: #2f2f40;
+  --dark3: #474763;
+  --dark4: #5d5d7a;
+  --dark5: #adafc3;
 }
 
-/* line 31, ../../../projects/mischiefer/scss-only/mischiefer.scss */
-body {
-  background-color: var(--color-page-background);
-  color: var(--color-text);
+/* line 42, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+* {
+  color: var(--dark4);
 }
 
-/* line 36, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 46, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+.navbar,
+.navbar-1,
+.navbar-2,
+.navbar-3 {
+  background-color: var(--light1);
+}
+
+/* line 53, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+.text-color-1 {
+  color: var(--dark3);
+}
+
+/* line 57, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+.text-color-2 {
+  color: var(--dark4);
+}
+
+/* line 61, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+.text-color-3 {
+  color: var(--dark5);
+}
+
+/* line 67, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark {
   --color-page-background: #37374f;
   --color-text: #fff;
