@@ -61,6 +61,10 @@ $all-colors-low-opacity: rgba(96, 67, 177, 0.2), rgba(81, 173, 248, 0.2), rgba(5
   rgba(255, 193, 78, 0.2), rgba(250, 128, 114, 0.2), rgba(227, 70, 70, 0.2), rgba(71, 71, 99, 0.2);
 $all-colors-name: 'purple', 'blue', 'green', 'yellow', 'salmon', 'red', 'reverse';
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */

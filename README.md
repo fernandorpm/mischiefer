@@ -1,6 +1,13 @@
 # Mischiefer
 > A free, lightweight, and open-source CSS Framework with inbuilt light and dark themes. Let's cause some mischief!
 
+## Community
+Join [our Discord community](https://discord.gg/axujHduV) in order to be on pair with us!
+
+## Supporters and Sponsors
+Right now we have none of them! :disappointed:
+But here's the list of our [Supporters](./Supporters.md)!
+
 ## Installation
 Mischiefer can be imported into your project in different ways, but in most cases, it will follow the regular HTML structure:
 
@@ -41,6 +48,25 @@ Notice that the CSS file is added inside the header, while the JS file is added 
 ## Usage
 
 For better infomation about usage, please head to the [Documentation](./Documentation.md).
+
+## Contribution
+> There are many ways to contribute to this project!
+
+### No time-consuming and free
+- **Use mischiefer!** This is the best contribution that you can do for us! :heart:
+- Join [our Discord community](https://discord.gg/axujHduV)!
+- Leave a :star2: on the project! It means a lot to us.
+- Share this framework/repo with someone! And help us grow skyhigh!
+
+### Time-consuming but free
+- Report a problem! A good framework is a bug-free framework! Or atleast with well-hidden bugs!
+- Suggest a feature! This way we can compete and stay relevant against other frameworks!
+- Report/Suggest **and implement it**! This will net you an exclusive contributor tag on Discord!
+- Be active in [our Discord community](https://discord.gg/axujHduV)!
+
+### No time-consuming but PAID
+- Got a spare penny? Throw it **to the chaos!** We have a wide variety of donation tags! Both monthly/yearly subscription and one time only!
+- Check [our Buy me a Coffee](https://www.buymeacoffee.com/mischiefer)!
 
 ## Issues and Suggestions
 
