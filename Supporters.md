@@ -6,8 +6,8 @@ Currently we have no sponsors :disappointed:
 ## Supporters
 > Want to be on list? Check out the **Contribution section down below!**
 
-[@arthurborgesdev](https://github.com/arthurborgesdev)
-[@fernandorpm](https://github.com/fernandorpm)
+- [@arthurborgesdev](https://github.com/arthurborgesdev)
+- [@fernandorpm](https://github.com/fernandorpm)
 
 ## Contribution
 > There are many ways to contribute to this project!
