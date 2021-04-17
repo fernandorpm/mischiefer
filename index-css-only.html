@@ -10,7 +10,7 @@
   <title>Framework</title>
 </head>
 ​
-<body>
+<body class="frame">
   <header class="has-navbar">
     <nav class="navbar box-shadow fixed-top">
       <div class="navbar-container text-fs-default">
@@ -29,7 +29,10 @@
 ​
   <main class="container pt-5">
     <h1 class="text-light-4">Hello World</h1>
-​
+​    <button onclick="(function(){
+      document.body.classList.toggle('dark');
+    })()">Botão Dark
+    </button>
     <p>Lorem ipsum <b>dolor</b> sit <strong>amet</strong> consectetur adipisicing elit. Dicta impedit minus asperiores
       harum obcaecati autem omnis veniam earum ad. Sed iste inventore eveniet veritatis nulla repudiandae esse
       voluptatum quisquam. Minima!</p>
@@ -163,7 +166,7 @@
 ​
   </div>
 
-  <!-- <script src="./mischiefer-css-only.js"></script> -->
+  <!--<script src="./mischiefer-css-only.js"></script> -->
 </body>
 ​
 </html>

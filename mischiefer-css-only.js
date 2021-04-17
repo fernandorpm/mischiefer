@@ -46,14 +46,14 @@ function MakeItLight() {
   RemoveClass('mischiefer-face-dark', 'mischiefer-face');
 
   // Card
-  SetBackgroundColor(light1, 'card');
-  SetBorderColor(light3, 'card-title');
+  //SetBackgroundColor(light1, 'card');
+  //SetBorderColor(light3, 'card-title');
 
   // Box Shadow
-  SetBoxShadow('rgba(150, 177, 205, 0.15)', 'box-shadow');
+  //SetBoxShadow('rgba(150, 177, 205, 0.15)', 'box-shadow');
 
   // Border
-  for (let i = 0; i < 7; i++) {
+  /*for (let i = 0; i < 7; i++) {
     SetBorderColor(light4, 'b-' + i);
     SetBorderColor(light4, 'by-' + i);
     SetBorderColor(light4, 'bt-' + i);
@@ -61,13 +61,14 @@ function MakeItLight() {
     SetBorderColor(light4, 'bx-' + i);
     SetBorderColor(light4, 'br-' + i);
     SetBorderColor(light4, 'bl-' + i);
-  }
+  */}
 
   // Default Button (Purple)
-  SetBorderColor('#845dec', 'button-glass');
-  SetBackgroundColor('rgba(0, 0, 0, 0)', 'button-glass');
+  //SetBorderColor('#845dec', 'button-glass');
+  //SetBackgroundColor('rgba(0, 0, 0, 0)', 'button-glass');
 
   // Light & Dark Background
+  /*
   SetBackgroundColor(light1, 'bg-color-1');
   SetBackgroundColor(light2, 'bg-color-2');
   SetBackgroundColor(light3, 'bg-color-3');
@@ -98,7 +99,7 @@ function MakeItLight() {
   SetTextColor(light2, 'button-solid-salmon');
   SetBackgroundColor('#e34646', 'button-solid-red');
   SetTextColor(light2, 'button-solid-red');
-
+  */
   // Button Empty
   RemoveClass('button-empty-dark', 'button-empty');
 
@@ -107,7 +108,7 @@ function MakeItLight() {
 
   // Form
   RemoveClassByTag('form-dark', 'form');
-
+  /*
   // Light & Dark Border Color
   SetBorderColor(light1, 'b-color-1');
   SetBorderColor(light2, 'b-color-2');
@@ -122,8 +123,9 @@ function MakeItLight() {
   SetBorderColor('#ffc14e', 'b-color-yellow');
   SetBorderColor('#fa8072', 'b-color-salmon');
   SetBorderColor('#e34646', 'b-color-red');
-
-  SetTextColor(light5, 'text-subtitle');
+  */
+  
+  // SetTextColor(light5, 'text-subtitle');
 
   document.body.style.backgroundColor = light2;
 
@@ -136,26 +138,26 @@ function MakeItLight() {
 // MAKE IT DARK ===================================================================
 
 function MakeItDark() {
-  SetBaseTextColor(light4);
+  //SetBaseTextColor(light4);
 
   // Background Color
-  SetBackgroundColor(dark1, 'navbar');
+  /*SetBackgroundColor(dark1, 'navbar');
   SetBackgroundColor(dark1, 'navbar-1');
   SetBackgroundColor(dark1, 'navbar-2');
   SetBackgroundColor(dark1, 'navbar-3');
-
+  
   // Text Color
   SetTextColor(light3, 'text-color-1');
   SetTextColor(light4, 'text-color-2');
   SetTextColor(light5, 'text-color-3');
-
+  
   // Mischiefer Logo
   AddClass('mischiefer-face-dark', 'mischiefer-face');
 
   // Card
   SetBackgroundColor(dark1, 'card');
   SetBorderColor(dark3, 'card-title');
-
+  
   // Box Shadow
   SetBoxShadow('rgba(28, 28, 38, 0.2)', 'box-shadow');
 
@@ -173,14 +175,14 @@ function MakeItDark() {
     SetBorderColor(dark3, 'br-' + i);
     SetBorderColor(dark3, 'bl-' + i);
   }
-
+  
   // Light & Dark Background
   SetBackgroundColor(dark1, 'bg-color-1');
   SetBackgroundColor(dark2, 'bg-color-2');
   SetBackgroundColor(dark3, 'bg-color-3');
   SetBackgroundColor(dark4, 'bg-color-4');
   SetBackgroundColor(dark5, 'bg-color-5');
-
+  
   // Colored Background
   SetBackgroundColor(light4, 'bg-color-reverse');
   SetBackgroundColor('#6043b1', 'bg-color-purple');
@@ -189,7 +191,7 @@ function MakeItDark() {
   SetBackgroundColor('#e6ad44', 'bg-color-yellow');
   SetBackgroundColor('#e66759', 'bg-color-salmon');
   SetBackgroundColor('#be4040', 'bg-color-red');
-
+  
   // Colored Button Solid
   SetBackgroundColor(dark5, 'button-solid-reverse');
   SetTextColor(dark3, 'button-solid-reverse');
@@ -205,7 +207,7 @@ function MakeItDark() {
   SetTextColor(light2, 'button-solid-salmon');
   SetBackgroundColor('#be4040', 'button-solid-red');
   SetTextColor(light2, 'button-solid-red');
-
+  */
   // Button Empty
   AddClass('button-empty-dark', 'button-empty');
 

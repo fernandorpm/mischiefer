@@ -29,8 +29,8 @@
   --light2: #f5f9fc;
   --light3: #f1f4f7;
   --light4: #d7dee6;
-  --light4: #9eadbe;
-  
+  --light5: #9eadbe;
+
   --dark1: #37374f;
   --dark2: #2f2f40;
   --dark3: #474763;
@@ -38,11 +38,14 @@
   --dark5: #adafc3;
 }
 
-// LIGHT MODE
+/* ========= LIGHT MODE ========= */
+
 * {
   color: var(--dark4);
 }
 
+
+// Background Color
 .navbar,
 .navbar-1,
 .navbar-2,
@@ -50,6 +53,8 @@
   background-color: var(--light1);
 }
 
+
+// Text Color
 .text-color-1 {
   color: var(--dark3);
 }
@@ -60,13 +65,434 @@
 
 .text-color-3 {
   color: var(--dark5);
-} 
+}
 
+// Mischiefer Logo (?)
+
+// Card
+.card {
+  background-color: var(--light1);
+}
+
+.card-title {
+  color: var(--light3);
+}
+
+// Box Shadow
+.box-shadow {
+  color: rgba(150, 177, 205, 0.15);
+}
+
+
+// Border
+@for $i from 0 through 7 {
+  .b-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .by-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .bt-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .bb-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .bx-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .br-#{$i} {
+    border-color: #d7dee6;
+  }
+
+  .bl-#{$i} {
+    border-color: #d7dee6;
+  } 
+}
+  
+
+// Default Button (Purple)
+.button-glass {
+  border-color: #845dec;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+// Light & Dark Background
+.bg-color-1 {
+  background-color: var(--light1);
+}
+
+.bg-color-2 {
+  background-color: var(--light2);
+}
+
+.bg-color-3 {
+  background-color: var(--light3);
+}
+
+.bg-color-4 {
+  background-color: var(--light4);
+}
+
+.bg-color-5 {
+  background-color: var(--light5);
+}
+
+
+// Colored Background
+.bg-color-reverse {
+  background-color: var(--dark3);
+}
+
+.bg-color-purple {
+  background-color: #845dec;
+}
+
+.bg-color-blue {
+  background-color: #51adf8;
+}
+
+.bg-color-green {
+  background-color: #37af73;
+}
+
+.bg-color-yellow {
+  background-color: #ffc14e;
+}
+
+.bg-color-salmon {
+  background-color: #fa8072;
+}
+
+.bg-color-red {
+  background-color: #e34646;
+}
+
+
+// Colored Button Solid
+.button-solid-reverse {
+  background-color: var(--dark3);
+  color: var(--light3);
+}
+
+.button-solid-purple {
+  background-color: #845dec;
+  color: var(--light2);
+}
+
+.button-solid-blue {
+  background-color: #51adf8;
+  color: var(--light2);
+}
+
+.button-solid-green {
+  background-color: #37af73;
+  color: var(--light2);
+}
+
+.button-solid-yellow {
+  background-color: #ffc14e;
+  color: var(--dark3);
+}
+
+.button-solid-salmon {
+  background-color: #fa8072;
+  color: var(--light2);
+}
+
+.button-solid-red {
+  background-color: #e34646;
+  color: var(--light2);
+}
+
+// Button Empty
+// Colored Button Secondary
+// Form
+
+// Light & Dark Border Color
+.b-color-1 {
+  border-color: var(--light1);
+}
+
+.b-color-2 {
+  border-color: var(--light2);
+}
+
+.b-color-3 {
+  border-color: var(--light3);
+}
+
+.b-color-4 {
+  border-color: var(--light4);
+}
+
+.b-color-5 {
+  border-color: var(--light5);
+}
+
+
+// Colored Border Color
+.b-color-reverse {
+  border-color: var(--dark3);
+}
+
+.b-color-blue {
+  border-color: #51adf8;
+}
+
+.b-color-green {
+  border-color: #37af73;
+}
+
+.b-color-yellow {
+  border-color: #ffc14e;
+}
+
+.b-color-salmon {
+  border-color: #fa8072;
+}
+
+.b-color-red {
+  border-color: #e34646;
+}
+
+.text-subtitle {
+  color: var(--light5);
+}
 
 // DARK MODE
 .dark {
-  --color-page-background: #{$dark1};
-  --color-text: #{$light1};
+  * {
+    color: var(--light4);
+  }
+  
+  
+  // Background Color
+  .navbar,
+  .navbar-1,
+  .navbar-2,
+  .navbar-3 {
+    background-color: var(--dark1);
+  }
+  
+  
+  // Text Color
+  .text-color-1 {
+    color: var(--light3);
+  }
+  
+  .text-color-2 {
+    color: var(--light4);
+  }
+  
+  .text-color-3 {
+    color: var(--light5);
+  }
+  
+  // Mischiefer Logo (?)
+  
+  // Card
+  .card {
+    background-color: var(--dark1);
+  }
+  
+  .card-title {
+    color: var(--dark3);
+  }
+  
+  // Box Shadow
+  .box-shadow {
+    color: rgba(28, 28, 38, 0.2);
+  }
+  
+  
+  // Border
+  @for $i from 0 through 7 {
+    .b-#{$i} {
+      border-color: #474763;
+    }
+  
+    .by-#{$i} {
+      border-color: #474763;
+    }
+  
+    .bt-#{$i} {
+      border-color: #474763;
+    }
+  
+    .bb-#{$i} {
+      border-color: #474763;
+    }
+  
+    .bx-#{$i} {
+      border-color: #474763;
+    }
+  
+    .br-#{$i} {
+      border-color: #474763;
+    }
+  
+    .bl-#{$i} {
+      border-color: #474763;
+    } 
+  }
+    
+  
+  // Default Button (Purple)
+  .button-glass {
+    border-color: #6043b1;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  
+  // Light & Dark Background
+  .bg-color-1 {
+    background-color: var(--dark1);
+  }
+  
+  .bg-color-2 {
+    background-color: var(--dark2);
+  }
+  
+  .bg-color-3 {
+    background-color: var(--dark3);
+  }
+  
+  .bg-color-4 {
+    background-color: var(--dark4);
+  }
+  
+  .bg-color-5 {
+    background-color: var(--dark5);
+  }
+  
+  
+  // Colored Background
+  .bg-color-reverse {
+    background-color: var(--light4);
+  }
+  
+  .bg-color-purple {
+    background-color: #6043b1;
+  }
+  
+  .bg-color-blue {
+    background-color: #4795d4;
+  }
+  
+  .bg-color-green {
+    background-color: #3faa75;
+  }
+  
+  .bg-color-yellow {
+    background-color: #e6ad44;
+  }
+  
+  .bg-color-salmon {
+    background-color: #e66759;
+  }
+  
+  .bg-color-red {
+    background-color: #be4040;
+  }
+  
+  
+  // Colored Button Solid
+  .button-solid-reverse {
+    background-color: var(--dark5);
+    color: var(--dark3);
+  }
+  
+  .button-solid-purple {
+    background-color: #6043b1;
+    color: var(--light2);
+  }
+  
+  .button-solid-blue {
+    background-color: #4795d4;
+    color: var(--light2);
+  }
+  
+  .button-solid-green {
+    background-color: #3faa75;
+    color: var(--light2);
+  }
+  
+  .button-solid-yellow {
+    background-color: #e6ad44;
+    color: var(--dark3);
+  }
+  
+  .button-solid-salmon {
+    background-color: #e66759;
+    color: var(--light2);
+  }
+  
+  .button-solid-red {
+    background-color: #be4040;
+    color: var(--light2);
+  }
+  
+  // Button Empty
+  // Colored Button Secondary
+  // Form
+  
+  // Light & Dark Border Color
+  .b-color-1 {
+    border-color: var(--light1);
+  }
+  
+  .b-color-2 {
+    border-color: var(--light2);
+  }
+  
+  .b-color-3 {
+    border-color: var(--light3);
+  }
+  
+  .b-color-4 {
+    border-color: var(--light4);
+  }
+  
+  .b-color-5 {
+    border-color: var(--light5);
+  }
+  
+  
+  // Colored Border Color
+  .b-color-reverse {
+    border-color: var(--dark3);
+  }
+  
+  .b-color-blue {
+    border-color: #51adf8;
+  }
+  
+  .b-color-green {
+    border-color: #37af73;
+  }
+  
+  .b-color-yellow {
+    border-color: #ffc14e;
+  }
+  
+  .b-color-salmon {
+    border-color: #fa8072;
+  }
+  
+  .b-color-red {
+    border-color: #e34646;
+  }
+  
+  .text-subtitle {
+    color: var(--light5);
+  }
 }
 
 
