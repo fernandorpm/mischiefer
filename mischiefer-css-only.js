@@ -127,7 +127,7 @@ function MakeItLight() {
   
   // SetTextColor(light5, 'text-subtitle');
 
-  document.body.style.backgroundColor = light2;
+  // document.body.style.backgroundColor = light2;
 
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
@@ -216,7 +216,7 @@ function MakeItDark() {
 
   // Form
   AddClassByTag('form-dark', 'form');
-
+  /*
   // Light & Dark Border Color
   SetBorderColor(dark1, 'b-color-1');
   SetBorderColor(dark2, 'b-color-2');
@@ -235,7 +235,7 @@ function MakeItDark() {
   SetTextColor(dark5, 'text-subtitle');
 
   document.body.style.backgroundColor = dark2;
-
+  */
   let d = new Date();
   d.setTime(d.getTime() + (60 * 24 * 60 * 60 * 1000));
 
