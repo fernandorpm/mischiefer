@@ -501,9 +501,9 @@ body {
     color: var(--dark5);
   }
 
-  body {
+  body & {
     background-color: var(--dark2) !important;
-  } 
+  }
 }
 
 
