@@ -19,7 +19,8 @@
         'addons/padding.scss',
         'addons/positioning.scss',
         'addons/size.scss',
-        'addons/text.scss'; 
+        'addons/text.scss', 
+        'addons/switch.scss';
 
 // Apply light/dark rules globally (?)
 
@@ -445,23 +446,23 @@
   
   // Light & Dark Border Color
   .b-color-1 {
-    border-color: var(--light1);
+    border-color: var(--dark1);
   }
   
   .b-color-2 {
-    border-color: var(--light2);
+    border-color: var(--dark2);
   }
   
   .b-color-3 {
-    border-color: var(--light3);
+    border-color: var(--dark3);
   }
   
   .b-color-4 {
-    border-color: var(--light4);
+    border-color: var(--dark4);
   }
   
   .b-color-5 {
-    border-color: var(--light5);
+    border-color: var(--dark5);
   }
   
   

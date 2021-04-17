@@ -2719,7 +2719,101 @@ body.dark .text-dark-2 {
   font-weight: 700;
 }
 
-/* line 26, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 1, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch {
+  --line: #505162;
+  --dot: #F7F8FF;
+  --circle: #9EA0BE;
+  --duration: .3s;
+  --text: #9EA0BE;
+  cursor: pointer;
+}
+
+/* line 8, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input {
+  display: none;
+}
+
+/* line 10, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div {
+  position: relative;
+}
+
+/* line 12, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div:before, .switch input + div:after {
+  --s: 1;
+  content: '';
+  position: absolute;
+  height: 4px;
+  top: 10px;
+  width: 24px;
+  background: var(--line);
+  transform: scaleX(var(--s));
+  transition: transform var(--duration) ease;
+}
+
+/* line 24, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div:before {
+  --s: 0;
+  left: 0;
+  transform-origin: 0 50%;
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 30, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div:after {
+  left: 28px;
+  transform-origin: 100% 50%;
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 35, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div span {
+  padding-left: 56px;
+  line-height: 24px;
+  color: var(--text);
+}
+
+/* line 39, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div span:before {
+  --x: 0;
+  --b: var(--circle);
+  --s: 4px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 var(--s) var(--b);
+  transform: translateX(var(--x));
+  transition: box-shadow var(--duration) ease, transform var(--duration) ease;
+}
+
+/* line 54, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input + div span:not(:empty) {
+  padding-left: 64px;
+}
+
+/* line 61, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input:checked + div:before {
+  --s: 1;
+}
+
+/* line 64, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input:checked + div:after {
+  --s: 0;
+}
+
+/* line 68, ../../../projects/mischiefer/scss-only/addons/switch.scss */
+.switch input:checked + div span:before {
+  --x: 28px;
+  --s: 12px;
+  --b: var(--dot);
+}
+
+/* line 27, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 :root {
   /* Colors */
   --light1: #fff;
@@ -2735,12 +2829,12 @@ body.dark .text-dark-2 {
 }
 
 /* ========= LIGHT MODE ========= */
-/* line 43, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 44, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 * {
   color: var(--dark4);
 }
 
-/* line 49, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 50, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .navbar,
 .navbar-1,
 .navbar-2,
@@ -2748,490 +2842,490 @@ body.dark .text-dark-2 {
   background-color: var(--light1);
 }
 
-/* line 58, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 59, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .text-color-1 {
   color: var(--dark3);
 }
 
-/* line 62, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 63, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .text-color-2 {
   color: var(--dark4);
 }
 
-/* line 66, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 67, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .text-color-3 {
   color: var(--dark5);
 }
 
-/* line 73, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 74, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .card {
   background-color: var(--light1);
 }
 
-/* line 77, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 78, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .card-title {
   color: var(--light3);
 }
 
-/* line 82, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 83, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .box-shadow {
   color: rgba(150, 177, 205, 0.15);
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-0 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-0 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-0 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-0 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-0 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-0 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-0 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-1 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-1 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-1 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-1 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-1 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-1 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-1 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-2 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-2 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-2 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-2 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-2 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-2 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-2 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-3 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-3 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-3 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-3 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-3 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-3 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-3 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-4 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-4 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-4 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-4 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-4 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-4 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-4 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-5 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-5 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-5 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-5 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-5 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-5 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-5 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-6 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-6 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-6 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-6 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-6 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-6 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-6 {
   border-color: #d7dee6;
 }
 
-/* line 89, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 90, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-7 {
   border-color: #d7dee6;
 }
 
-/* line 93, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 94, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .by-7 {
   border-color: #d7dee6;
 }
 
-/* line 97, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 98, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bt-7 {
   border-color: #d7dee6;
 }
 
-/* line 101, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 102, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bb-7 {
   border-color: #d7dee6;
 }
 
-/* line 105, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 106, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bx-7 {
   border-color: #d7dee6;
 }
 
-/* line 109, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 110, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .br-7 {
   border-color: #d7dee6;
 }
 
-/* line 113, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 114, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bl-7 {
   border-color: #d7dee6;
 }
 
-/* line 120, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 121, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-glass {
   border-color: #845dec;
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 127, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 128, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-1 {
   background-color: var(--light1);
 }
 
-/* line 131, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 132, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-2 {
   background-color: var(--light2);
 }
 
-/* line 135, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 136, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-3 {
   background-color: var(--light3);
 }
 
-/* line 139, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 140, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-4 {
   background-color: var(--light4);
 }
 
-/* line 143, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 144, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-5 {
   background-color: var(--light5);
 }
 
-/* line 149, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 150, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-reverse {
   background-color: var(--dark3);
 }
 
-/* line 153, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 154, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-purple {
   background-color: #845dec;
 }
 
-/* line 157, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 158, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-blue {
   background-color: #51adf8;
 }
 
-/* line 161, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 162, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-green {
   background-color: #37af73;
 }
 
-/* line 165, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 166, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-yellow {
   background-color: #ffc14e;
 }
 
-/* line 169, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 170, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-salmon {
   background-color: #fa8072;
 }
 
-/* line 173, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 174, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .bg-color-red {
   background-color: #e34646;
 }
 
-/* line 179, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 180, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-reverse {
   background-color: var(--dark3);
   color: var(--light3);
 }
 
-/* line 184, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 185, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-purple {
   background-color: #845dec;
   color: var(--light2);
 }
 
-/* line 189, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 190, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-blue {
   background-color: #51adf8;
   color: var(--light2);
 }
 
-/* line 194, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 195, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-green {
   background-color: #37af73;
   color: var(--light2);
 }
 
-/* line 199, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 200, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-yellow {
   background-color: #ffc14e;
   color: var(--dark3);
 }
 
-/* line 204, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 205, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-salmon {
   background-color: #fa8072;
   color: var(--light2);
 }
 
-/* line 209, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 210, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .button-solid-red {
   background-color: #e34646;
   color: var(--light2);
 }
 
-/* line 219, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 220, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-1 {
   border-color: var(--light1);
 }
 
-/* line 223, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 224, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-2 {
   border-color: var(--light2);
 }
 
-/* line 227, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 228, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-3 {
   border-color: var(--light3);
 }
 
-/* line 231, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 232, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-4 {
   border-color: var(--light4);
 }
 
-/* line 235, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 236, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-5 {
   border-color: var(--light5);
 }
 
-/* line 241, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 242, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-reverse {
   border-color: var(--dark3);
 }
 
-/* line 245, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 246, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-blue {
   border-color: #51adf8;
 }
 
-/* line 249, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 250, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-green {
   border-color: #37af73;
 }
 
-/* line 253, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 254, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-yellow {
   border-color: #ffc14e;
 }
 
-/* line 257, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 258, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-salmon {
   border-color: #fa8072;
 }
 
-/* line 261, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 262, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .b-color-red {
   border-color: #e34646;
 }
 
-/* line 265, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 266, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .text-subtitle {
   color: var(--light5);
 }
 
-/* line 271, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 272, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark * {
   color: var(--light4);
 }
 
-/* line 277, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 278, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .navbar,
 .dark .navbar-1,
 .dark .navbar-2,
@@ -3239,480 +3333,480 @@ body.dark .text-dark-2 {
   background-color: var(--dark1);
 }
 
-/* line 286, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 287, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .text-color-1 {
   color: var(--light3);
 }
 
-/* line 290, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 291, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .text-color-2 {
   color: var(--light4);
 }
 
-/* line 294, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 295, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .text-color-3 {
   color: var(--light5);
 }
 
-/* line 301, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 302, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .card {
   background-color: var(--dark1);
 }
 
-/* line 305, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 306, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .card-title {
   color: var(--dark3);
 }
 
-/* line 310, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 311, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .box-shadow {
   color: rgba(28, 28, 38, 0.2);
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-0 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-0 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-0 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-0 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-0 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-0 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-0 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-1 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-1 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-1 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-1 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-1 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-1 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-1 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-2 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-2 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-2 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-2 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-2 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-2 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-2 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-3 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-3 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-3 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-3 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-3 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-3 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-3 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-4 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-4 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-4 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-4 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-4 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-4 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-4 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-5 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-5 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-5 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-5 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-5 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-5 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-5 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-6 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-6 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-6 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-6 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-6 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-6 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-6 {
   border-color: #474763;
 }
 
-/* line 317, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 318, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-7 {
   border-color: #474763;
 }
 
-/* line 321, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 322, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .by-7 {
   border-color: #474763;
 }
 
-/* line 325, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 326, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bt-7 {
   border-color: #474763;
 }
 
-/* line 329, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 330, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bb-7 {
   border-color: #474763;
 }
 
-/* line 333, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 334, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bx-7 {
   border-color: #474763;
 }
 
-/* line 337, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 338, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .br-7 {
   border-color: #474763;
 }
 
-/* line 341, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 342, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bl-7 {
   border-color: #474763;
 }
 
-/* line 348, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 349, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-glass {
   border-color: #6043b1;
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 355, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 356, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-1 {
   background-color: var(--dark1);
 }
 
-/* line 359, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 360, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-2 {
   background-color: var(--dark2);
 }
 
-/* line 363, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 364, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-3 {
   background-color: var(--dark3);
 }
 
-/* line 367, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 368, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-4 {
   background-color: var(--dark4);
 }
 
-/* line 371, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 372, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-5 {
   background-color: var(--dark5);
 }
 
-/* line 377, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 378, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-reverse {
   background-color: var(--light4);
 }
 
-/* line 381, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 382, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-purple {
   background-color: #6043b1;
 }
 
-/* line 385, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 386, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-blue {
   background-color: #4795d4;
 }
 
-/* line 389, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 390, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-green {
   background-color: #3faa75;
 }
 
-/* line 393, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 394, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-yellow {
   background-color: #e6ad44;
 }
 
-/* line 397, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 398, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-salmon {
   background-color: #e66759;
 }
 
-/* line 401, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 402, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .bg-color-red {
   background-color: #be4040;
 }
 
-/* line 407, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 408, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-reverse {
   background-color: var(--dark5);
   color: var(--dark3);
 }
 
-/* line 412, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 413, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-purple {
   background-color: #6043b1;
   color: var(--light2);
 }
 
-/* line 417, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 418, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-blue {
   background-color: #4795d4;
   color: var(--light2);
 }
 
-/* line 422, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 423, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-green {
   background-color: #3faa75;
   color: var(--light2);
 }
 
-/* line 427, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 428, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-yellow {
   background-color: #e6ad44;
   color: var(--dark3);
 }
 
-/* line 432, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 433, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-salmon {
   background-color: #e66759;
   color: var(--light2);
 }
 
-/* line 437, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 438, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .button-solid-red {
   background-color: #be4040;
   color: var(--light2);
 }
 
-/* line 447, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 448, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-1 {
-  border-color: var(--light1);
+  border-color: var(--dark1);
 }
 
-/* line 451, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 452, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-2 {
-  border-color: var(--light2);
+  border-color: var(--dark2);
 }
 
-/* line 455, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 456, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-3 {
-  border-color: var(--light3);
+  border-color: var(--dark3);
 }
 
-/* line 459, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 460, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-4 {
-  border-color: var(--light4);
+  border-color: var(--dark4);
 }
 
-/* line 463, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 464, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-5 {
-  border-color: var(--light5);
+  border-color: var(--dark5);
 }
 
-/* line 469, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 470, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-reverse {
   border-color: var(--dark3);
 }
 
-/* line 473, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 474, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-blue {
   border-color: #51adf8;
 }
 
-/* line 477, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 478, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-green {
   border-color: #37af73;
 }
 
-/* line 481, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 482, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-yellow {
   border-color: #ffc14e;
 }
 
-/* line 485, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 486, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-salmon {
   border-color: #fa8072;
 }
 
-/* line 489, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 490, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .b-color-red {
   border-color: #e34646;
 }
 
-/* line 493, ../../../projects/mischiefer/scss-only/mischiefer.scss */
+/* line 494, ../../../projects/mischiefer/scss-only/mischiefer.scss */
 .dark .text-subtitle {
   color: var(--light5);
 }
