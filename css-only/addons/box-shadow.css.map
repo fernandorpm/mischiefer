@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,WAAY;EACV,UAAU,EAAE,qCAAqC",
+"sources": ["../../scss-only/addons/box-shadow.scss"],
+"names": [],
+"file": "box-shadow.css"
+}

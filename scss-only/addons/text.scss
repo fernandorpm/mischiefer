@@ -107,14 +107,23 @@ p {
 @for $i from 1 to length($mono-colors) {
   .text-color-#{$i} {
     color: nth($mono-colors, $i);
+    body.dark & {
+      color: nth($mono-colors-light, $i);
+    }
   }
 
   .text-light-#{$i} {
     color: nth($mono-colors-light, $i) !important;
+    body.dark & {
+      color: nth($mono-colors, $i) !important;
+    }
   }
 
   .text-dark-#{$i} {
     color: nth($mono-colors, $i) !important;
+    body.dark & {
+      color: nth($mono-colors-light, $i) !important;
+    }
   }
 }
 
