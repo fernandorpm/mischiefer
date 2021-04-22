@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,OAAQ;EACN,OAAO,EAAE,GAAG;EACZ,mBAAmB,EAAE,eAAe",
+"sources": ["../../scss-only/addons/anchor.scss"],
+"names": [],
+"file": "anchor.css"
+}

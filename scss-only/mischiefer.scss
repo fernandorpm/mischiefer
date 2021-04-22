@@ -275,11 +275,15 @@ body {
 
 
 /* ========= DARK MODE ================*/
+
+body.dark {
+  background-color: $dark2;
+}
+
 .dark {
   * {
     color: var(--light4);
   }
-  
   
   // Background Color
   .navbar,

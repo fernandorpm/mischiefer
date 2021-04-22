@@ -1,95 +1,60 @@
-/* line 1, ../../../projects/mischiefer/scss-only/addons/switch.scss */
 .switch {
-  --line: #505162;
-  --dot: #F7F8FF;
+  --line: #68697c;
+  --dot: #c8c9d6;
   --circle: #9EA0BE;
   --duration: .3s;
   --text: #9EA0BE;
-  cursor: pointer;
-}
-
-/* line 8, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input {
-  display: none;
-}
-
-/* line 10, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div {
-  position: relative;
-}
-
-/* line 12, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div:before, .switch input + div:after {
-  --s: 1;
-  content: '';
-  position: absolute;
-  height: 4px;
-  top: 10px;
-  width: 24px;
-  background: var(--line);
-  transform: scaleX(var(--s));
-  transition: transform var(--duration) ease;
-}
-
-/* line 24, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div:before {
-  --s: 0;
-  left: 0;
-  transform-origin: 0 50%;
-  border-radius: 2px 0 0 2px;
-}
-
-/* line 30, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div:after {
-  left: 28px;
-  transform-origin: 100% 50%;
-  border-radius: 0 2px 2px 0;
-}
-
-/* line 35, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div span {
-  padding-left: 56px;
-  line-height: 24px;
-  color: var(--text);
-}
-
-/* line 39, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div span:before {
-  --x: 0;
-  --b: var(--circle);
-  --s: 4px;
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 var(--s) var(--b);
-  transform: translateX(var(--x));
-  transition: box-shadow var(--duration) ease, transform var(--duration) ease;
-}
-
-/* line 54, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input + div span:not(:empty) {
-  padding-left: 64px;
-}
-
-/* line 61, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input:checked + div:before {
-  --s: 1;
-}
-
-/* line 64, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input:checked + div:after {
-  --s: 0;
-}
-
-/* line 68, ../../../projects/mischiefer/scss-only/addons/switch.scss */
-.switch input:checked + div span:before {
-  --x: 28px;
-  --s: 12px;
-  --b: var(--dot);
-}
+  cursor: pointer; }
+  .switch input {
+    display: none; }
+    .switch input + div {
+      position: relative; }
+      .switch input + div:before, .switch input + div:after {
+        --s: 1;
+        content: '';
+        position: absolute;
+        height: 4px;
+        top: 10px;
+        width: 24px;
+        background: var(--line);
+        transform: scaleX(var(--s));
+        transition: transform var(--duration) ease; }
+      .switch input + div:before {
+        --s: 0;
+        left: 0;
+        transform-origin: 0 50%;
+        border-radius: 2px 0 0 2px; }
+      .switch input + div:after {
+        left: 28px;
+        transform-origin: 100% 50%;
+        border-radius: 0 2px 2px 0; }
+      .switch input + div span {
+        padding-left: 56px;
+        line-height: 24px;
+        color: var(--text); }
+        .switch input + div span:before {
+          --x: 0;
+          --b: var(--circle);
+          --s: 4px;
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          box-shadow: inset 0 0 0 var(--s) var(--b);
+          transform: translateX(var(--x));
+          transition: box-shadow var(--duration) ease, transform var(--duration) ease; }
+        .switch input + div span:not(:empty) {
+          padding-left: 64px; }
+    .switch input:checked + div:before {
+      --s: 1; }
+    .switch input:checked + div:after {
+      --s: 0; }
+    .switch input:checked + div span:before {
+      --x: 28px;
+      --s: 12px;
+      --b: var(--dot); }
 
 /*# sourceMappingURL=switch.css.map */
