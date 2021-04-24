@@ -233,15 +233,6 @@ button {
   opacity: 1;
   filter: brightness(0.2); }
 
-.button-empty-dark {
-  border-color: #5d5d7a;
-  transition-duration: 0.2s !important; }
-
-.button-empty-dark:hover {
-  background-color: rgba(0, 0, 0, 0);
-  opacity: 1;
-  filter: brightness(1.6); }
-
 .button-1 {
   padding: 14px 24px; }
 
