@@ -38,7 +38,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-purple:hover {
   background-color: #845dec;
@@ -51,7 +52,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-blue:hover {
   background-color: #51adf8;
@@ -64,7 +66,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-green:hover {
   background-color: #37af73;
@@ -77,7 +80,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-yellow:hover {
   background-color: #ffc14e;
@@ -90,7 +94,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-salmon:hover {
   background-color: #fa8072;
@@ -103,7 +108,8 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-red:hover {
   background-color: #e34646;
@@ -116,12 +122,16 @@ button {
   text-decoration: none;
   border: 0;
   padding: 10px 18px;
-  transition-duration: 0.2s !important; }
+  transition-duration: 0.2s !important;
+  color: #fff; }
 
 .button-solid-reverse:hover {
   background-color: #474763;
   opacity: 1;
   filter: brightness(1.2); }
+
+.button-solid-yellow {
+  color: #474763; }
 
 .button-secondary-purple {
   background-color: rgba(96, 67, 177, 0.2);
