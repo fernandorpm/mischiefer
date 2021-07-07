@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem; }
+
+body {
+  background-color: #f5f9fc; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700; }
+
+* {
+  color: var(--dark4);
+  font-size: 0.95rem; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.8rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+h5 {
+  font-size: 1.2rem; }
+
+h6 {
+  font-size: 1rem; }
+
+.text-ff-title {
+  font-family: "Signika", sans-serif !important; }
+
+.text-ff-text {
+  font-family: "Rubik", sans-serif !important; }
+
+.text-lh-1 {
+  line-height: 1; }
+
+.text-lh-2 {
+  line-height: 1.2; }
+
+.text-lh-3,
+p {
+  line-height: 1.5; }
+
+.text-lh-4 {
+  line-height: 2; }
+
+.text-fs-default {
+  font-size: 0.95rem; }
+
+.text-fs-1 {
+  font-size: 1rem; }
+
+.text-fs-2 {
+  font-size: 1.5rem; }
+
+.text-fs-3 {
+  font-size: 2rem; }
+
+.text-fs-4 {
+  font-size: 2.5rem; }
+
+.text-fs-5 {
+  font-size: 3rem; }
+
+.text-fs-6 {
+  font-size: 3.5rem; }
+
+.text-regular {
+  font-weight: 300; }
+
+.text-medium {
+  font-weight: 500; }
+
+.text-bold {
+  font-weight: 700; }
+
+.text-align-center {
+  text-align: center; }
+
+.text-align-start {
+  text-align: start; }
+
+.text-align-end {
+  text-align: end; }
+
+.text-align-justify {
+  text-align: justify; }
+
+.text-color-1 {
+  color: #474763; }
+  body.dark .text-color-1 {
+    color: #f1f4f7; }
+
+.text-light-1 {
+  color: #f1f4f7 !important; }
+  body.dark .text-light-1 {
+    color: #474763 !important; }
+
+.text-dark-1 {
+  color: #474763 !important; }
+  body.dark .text-dark-1 {
+    color: #f1f4f7 !important; }
+
+.text-color-2 {
+  color: #5d5d7a; }
+  body.dark .text-color-2 {
+    color: #d7dee6; }
+
+.text-light-2 {
+  color: #d7dee6 !important; }
+  body.dark .text-light-2 {
+    color: #5d5d7a !important; }
+
+.text-dark-2 {
+  color: #5d5d7a !important; }
+  body.dark .text-dark-2 {
+    color: #d7dee6 !important; }
+
+.text-color-purple {
+  color: #845dec !important; }
+
+.text-color-blue {
+  color: #51adf8 !important; }
+
+.text-color-green {
+  color: #37af73 !important; }
+
+.text-color-yellow {
+  color: #ffc14e !important; }
+
+.text-color-salmon {
+  color: #fa8072 !important; }
+
+.text-color-red {
+  color: #e34646 !important; }
+
+.text-subtitle {
+  color: #9eadbe;
+  font-weight: 700; }
+
+/*# sourceMappingURL=text.css.map */

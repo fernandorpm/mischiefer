@@ -1,0 +1,54 @@
+@import 'configs';
+
+// FORM =========================================================================
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: $text;
+}
+
+form > * {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid $light4;
+  font-family: $text;
+}
+
+input,
+textarea {
+  font-size: 0.95rem;
+  max-width: 800px;
+}
+
+input[type="color"] {
+  height: 60px;
+}
+
+// Rails Forms
+
+.field,
+.actions {
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+
+.field label {
+  font-weight: $bold;
+}
+
+.field input,
+.field textarea {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(214, 214, 214);
+  width: 100%;
+}
+
+.form-dark input,
+.form-dark textarea {
+  border: 1px solid $dark3;
+  background-color: $dark1;
+}

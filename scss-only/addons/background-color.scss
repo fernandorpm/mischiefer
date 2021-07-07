@@ -1,0 +1,16 @@
+@import 'configs';
+
+// BACKGROUND-COLOR =============================================================
+
+@for $i from 1 to length($light-colors) {
+  .bg-color-#{$i} {
+    background-color: nth($light-colors, $i);
+  }
+}
+
+@for $i from 1 to length($all-colors) {
+  $name: unquote(nth($all-colors-name, $i));
+  .bg-color-#{$name} {
+    background-color: nth($all-colors, $i);
+  }
+}

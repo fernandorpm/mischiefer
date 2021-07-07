@@ -1,0 +1,43 @@
+// MARGIN =======================================================================
+
+@for $i from 1 to 6 {
+  $size: $i * 0.5rem;
+
+  .m-#{$i} {
+    margin: $size;
+  }
+
+  // Vertical
+
+  .my-#{$i} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .mt-#{$i} {
+    margin-top: $size;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $size;
+  }
+
+  // Horizontal
+
+  .mx-#{$i} {
+    margin-right: $size;
+    margin-left: $size;
+  }
+
+  .mr-#{$i} {
+    margin-right: $size;
+  }
+
+  .ml-#{$i} {
+    margin-left: $size;
+  }
+}
+
+.mx-auto {
+  margin: 0 auto;
+}

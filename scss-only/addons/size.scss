@@ -1,0 +1,41 @@
+@import 'configs';
+
+// SIZE =========================================================================
+
+@for $i from 1 to 13 {
+  .col-#{$i} {
+    width: (100%/12) * $i;
+  }
+}
+
+@for $i from 1 to 13 {
+  .col-sm-#{$i} {
+    @include sm {
+      width: (100%/12) * $i;
+    }
+  }
+}
+
+@for $i from 1 to 13 {
+  .col-md-#{$i} {
+    @include md {
+      width: (100%/12) * $i;
+    }
+  }
+}
+
+@for $i from 1 to 13 {
+  .col-lg-#{$i} {
+    @include lg {
+      width: (100%/12) * $i;
+    }
+  }
+}
+
+@for $i from 1 to 13 {
+  .col-xl-#{$i} {
+    @include xl {
+      width: (100%/12) * $i;
+    }
+  }
+}

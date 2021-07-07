@@ -1,0 +1,16 @@
+@import 'configs';
+
+// CARD =========================================================================
+
+.card {
+  background-color: $light1;
+}
+
+.card-title {
+  border-bottom: 2px solid $light3;
+  padding: 1rem;
+}
+
+.card-content {
+  padding: 1.5rem 1rem;
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+
+@mixin sm {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+$text: "Rubik", sans-serif;
+$title: "Signika", sans-serif;
+
+$regular: 300;
+$medium: 500;
+$bold: 700;
+
+$light1: #fff;
+$light2: #f5f9fc;
+$light3: #f1f4f7;
+$light4: #d7dee6;
+$light5: #9eadbe;
+
+$light-colors: $light1, $light2, $light3, $light4, $light5;
+
+$dark1: #37374f;
+$dark2: #2f2f40;
+$dark3: #474763;
+$dark4: #5d5d7a;
+$dark5: #adafc3;
+
+$dark-colors: $dark1, $dark2, $dark3, $dark4, $dark5;
+
+$purple: #845dec;
+$blue: #51adf8;
+$green: #37af73;
+$yellow: #ffc14e;
+$salmon: #fa8072;
+$red: #e34646;
+$reverse: #474763;
+
+$mono-colors: $dark3, $dark4, $dark5;
+$mono-colors-light: $light3, $light4, $light5;
+
+$all-colors: $purple, $blue, $green, $yellow, $salmon, $red, $reverse;
+$all-colors-dark: #9470f5, #4795d4, #37af73, #d69927, #e66759, #be4040, $dark4;
+$all-colors-low-opacity: rgba(96, 67, 177, 0.2), rgba(81, 173, 248, 0.2), rgba(59, 207, 133, 0.2),
+  rgba(255, 193, 78, 0.2), rgba(250, 128, 114, 0.2), rgba(227, 70, 70, 0.2), rgba(71, 71, 99, 0.2);
+$all-colors-name: 'purple', 'blue', 'green', 'yellow', 'salmon', 'red', 'reverse';
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  font-family: $text;
+  font-weight: $regular;
+  color: $dark2;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+body {
+  background-color: $light2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title;
+  font-weight: $bold;
+}

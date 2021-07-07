@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "title.css",
+	"sources": [
+		"../scss-only/title.scss"
+	],
+	"sourcesContent": [
+		"// TEXT =========================================================================\n\n// Title\n\nh1 {\n  font-size: 2rem;\n}\n\nh2 {\n  font-size: 1.8rem;\n}\n\nh3 {\n  font-size: 1.6rem;\n}\n\nh4 {\n  font-size: 1.4rem;\n}\n\nh5 {\n  font-size: 1.2rem;\n}\n\nh6 {\n  font-size: 1rem;\n}"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,MAAM;CAClB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,MAAM;CAClB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,MAAM;CAClB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,MAAM;CAClB;;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB"
+}

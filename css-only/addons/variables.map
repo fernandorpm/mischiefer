@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../../scss-only/addons/variables.scss"
+	],
+	"sourcesContent": [
+		"$text: \"Rubik\", sans-serif;\n$title: \"Signika\", sans-serif;\n\n$regular: 300;\n$medium: 500;\n$bold: 700;\n\n$light1: #fff;\n$light2: #f5f9fc;\n$light3: #f1f4f7;\n$light4: #d7dee6;\n$light5: #9eadbe;\n\n$light-colors: $light1, $light2, $light3, $light4, $light5;\n\n$dark1: #37374f;\n$dark2: #2f2f40;\n$dark3: #474763;\n$dark4: #5d5d7a;\n$dark5: #adafc3;\n\n$dark-colors: $dark1, $dark2, $dark3, $dark4, $dark5;\n\n$purple: #845dec;\n$blue: #51adf8;\n$green: #37af73;\n$yellow: #ffc14e;\n$salmon: #fa8072;\n$red: #e34646;\n$reverse: #474763;\n\n$mono-colors: $dark3, $dark4, $dark5;\n$mono-colors-light: $light3, $light4, $light5;\n\n$all-colors: $purple, $blue, $green, $yellow, $salmon, $red, $reverse;\n$all-colors-dark: #9470f5, #4795d4, #37af73, #d69927, #e66759, #be4040, $dark4;\n$all-colors-low-opacity: rgba(96, 67, 177, 0.2), rgba(81, 173, 248, 0.2), rgba(59, 207, 133, 0.2),\n  rgba(255, 193, 78, 0.2), rgba(250, 128, 114, 0.2), rgba(227, 70, 70, 0.2), rgba(71, 71, 99, 0.2);\n$all-colors-name: 'purple', 'blue', 'green', 'yellow', 'salmon', 'red', 'reverse';"
+	],
+	"names": [],
+	"mappings": ""
+}
