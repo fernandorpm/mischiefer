@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&family=Signika:wght@300;500;700&display=swap");
+/* line 64, ../temp/mischiefer/scss/addons/configs.scss */
+* {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: #2f2f40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 0.95rem;
+}
+
+/* line 77, ../temp/mischiefer/scss/addons/configs.scss */
+body {
+  background-color: #f5f9fc;
+}
+
+/* line 81, ../temp/mischiefer/scss/addons/configs.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+}
+
+/* line 3, ../temp/mischiefer/scss/addons/dark.scss */
+:root {
+  /* Colors */
+  --light1: #fff;
+  --light2: #f5f9fc;
+  --light3: #f1f4f7;
+  --light4: #d7dee6;
+  --light5: #9eadbe;
+  --dark1: #37374f;
+  --dark2: #2f2f40;
+  --dark3: #474763;
+  --dark4: #5d5d7a;
+  --dark5: #adafc3;
+}
+
+/* line 18, ../temp/mischiefer/scss/addons/dark.scss */
+body.dark {
+  background-color: #2f2f40;
+}
+
+/* line 23, ../temp/mischiefer/scss/addons/dark.scss */
+.dark * {
+  color: var(--light4);
+}
+
+/* line 28, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .navbar,
+.dark .navbar-1,
+.dark .navbar-2,
+.dark .navbar-3,
+.dark .navbar-vertical {
+  background-color: var(--dark1);
+}
+
+/* line 38, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .text-color-1 {
+  color: var(--light3);
+}
+
+/* line 42, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .text-color-2 {
+  color: var(--light4);
+}
+
+/* line 46, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .text-color-3 {
+  color: var(--light5);
+}
+
+/* line 51, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .card {
+  background-color: var(--dark1);
+}
+
+/* line 55, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .card-title {
+  color: var(--dark3);
+  border-color: var(--dark3);
+}
+
+/* line 61, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .box-shadow {
+  box-shadow: 0px 4px 20px rgba(28, 28, 38, 0.2);
+}
+
+/* line 66, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-glass {
+  border-color: #6043b1;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-0 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-0 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-0 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-0 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-0 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-0 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-0 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-1 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-1 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-1 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-1 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-1 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-1 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-1 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-2 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-2 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-2 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-2 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-2 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-2 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-2 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-3 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-3 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-3 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-3 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-3 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-3 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-3 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-4 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-4 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-4 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-4 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-4 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-4 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-4 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-5 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-5 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-5 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-5 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-5 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-5 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-5 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-6 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-6 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-6 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-6 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-6 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-6 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-6 {
+  border-color: #474763;
+}
+
+/* line 74, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-7 {
+  border-color: #474763;
+}
+
+/* line 78, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .by-7 {
+  border-color: #474763;
+}
+
+/* line 82, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bt-7 {
+  border-color: #474763;
+}
+
+/* line 86, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bb-7 {
+  border-color: #474763;
+}
+
+/* line 90, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bx-7 {
+  border-color: #474763;
+}
+
+/* line 94, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .br-7 {
+  border-color: #474763;
+}
+
+/* line 98, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bl-7 {
+  border-color: #474763;
+}
+
+/* line 105, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-1 {
+  background-color: var(--dark1);
+}
+
+/* line 109, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-2 {
+  background-color: var(--dark2);
+}
+
+/* line 113, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-3 {
+  background-color: var(--dark3);
+}
+
+/* line 117, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-4 {
+  background-color: var(--dark4);
+}
+
+/* line 121, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-5 {
+  background-color: var(--dark5);
+}
+
+/* line 127, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-reverse {
+  background-color: var(--light4);
+}
+
+/* line 131, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-purple {
+  background-color: #6043b1;
+}
+
+/* line 135, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-blue {
+  background-color: #4795d4;
+}
+
+/* line 139, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-green {
+  background-color: #3faa75;
+}
+
+/* line 143, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-yellow {
+  background-color: #e6ad44;
+}
+
+/* line 147, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-salmon {
+  background-color: #e66759;
+}
+
+/* line 151, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .bg-color-red {
+  background-color: #be4040;
+}
+
+/* line 157, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-reverse {
+  background-color: var(--dark5);
+  color: var(--dark3);
+}
+
+/* line 162, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-purple {
+  background-color: #6043b1;
+  color: var(--light2);
+}
+
+/* line 167, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-blue {
+  background-color: #4795d4;
+  color: var(--light2);
+}
+
+/* line 172, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-green {
+  background-color: #3faa75;
+  color: var(--light2);
+}
+
+/* line 177, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-yellow {
+  background-color: #e6ad44;
+  color: var(--dark3);
+}
+
+/* line 182, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-salmon {
+  background-color: #e66759;
+  color: var(--light2);
+}
+
+/* line 187, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-solid-red {
+  background-color: #be4040;
+  color: var(--light2);
+}
+
+/* line 194, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-secondary-reverse {
+  color: var(--light5) !important;
+  background-color: rgba(71, 71, 99, 0.7);
+}
+
+/* line 201, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .button-empty:hover {
+  filter: brightness(1.4);
+}
+
+/* line 207, ../temp/mischiefer/scss/addons/dark.scss */
+.dark form > * {
+  border: 1px solid #474763;
+  background-color: #37374f;
+}
+
+/* line 212, ../temp/mischiefer/scss/addons/dark.scss */
+.dark form input[type="submit"],
+.dark form input[type="button"],
+.dark form input[type="reset"] {
+  border: 0;
+}
+
+/* line 219, ../temp/mischiefer/scss/addons/dark.scss */
+.dark form input[type="checkbox"],
+.dark form input[type="radio"],
+.dark form input[type="range"] {
+  filter: invert(85%) hue-rotate(-200deg);
+}
+
+/* line 226, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-1 {
+  border-color: var(--dark1);
+}
+
+/* line 230, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-2 {
+  border-color: var(--dark2);
+}
+
+/* line 234, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-3 {
+  border-color: var(--dark3);
+}
+
+/* line 238, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-4 {
+  border-color: var(--dark4);
+}
+
+/* line 242, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-5 {
+  border-color: var(--dark5);
+}
+
+/* line 248, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-reverse {
+  border-color: var(--light4);
+}
+
+/* line 252, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-blue {
+  border-color: #4795d4;
+}
+
+/* line 256, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-green {
+  border-color: #3faa75;
+}
+
+/* line 260, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-yellow {
+  border-color: #e6ad44;
+}
+
+/* line 264, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-salmon {
+  border-color: #e66759;
+}
+
+/* line 268, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .b-color-red {
+  border-color: #be4040;
+}
+
+/* line 272, ../temp/mischiefer/scss/addons/dark.scss */
+.dark .text-subtitle {
+  color: var(--dark5);
+}
+
+/* line 276, ../temp/mischiefer/scss/addons/dark.scss */
+body .dark {
+  background-color: var(--dark2) !important;
+}
+
+/*# sourceMappingURL=dark.css.map */

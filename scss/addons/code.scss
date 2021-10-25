@@ -1,0 +1,12 @@
+@import 'configs';
+
+pre {
+  background-color: $dark3;
+  border: 1px solid $dark2;
+  padding: 15px;
+}
+
+code {
+  font-family: monospace !important;
+  color: $light4 !important;
+}

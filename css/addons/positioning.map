@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "positioning.css",
+	"sources": [
+		"../../scss/addons/positioning.scss"
+	],
+	"sourcesContent": [
+		"// POSITIONING ==================================================================\n\n.fixed-top {\n  position: fixed;\n  top: 0;\n}\n\n.fixed-left {\n  position: fixed;\n  left: 0;\n}\n\n.fixed-bottom {\n  position: fixed;\n  bottom: 0;\n}\n\n.fixed-right {\n  position: fixed;\n  right: 0;\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,UAAU,CAAC;EACT,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;CACP;;;AAED,AAAA,WAAW,CAAC;EACV,QAAQ,EAAE,KAAK;EACf,IAAI,EAAE,CAAC;CACR;;;AAED,AAAA,aAAa,CAAC;EACZ,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;CACV;;;AAED,AAAA,YAAY,CAAC;EACX,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,CAAC;CACT"
+}

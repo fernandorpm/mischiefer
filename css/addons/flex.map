@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "flex.css",
+	"sources": [
+		"../../scss/addons/flex.scss"
+	],
+	"sourcesContent": [
+		"// FLEX =========================================================================\n\n.flex-container {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: flex-start;\n  justify-content: start;\n  margin: -0.5rem;\n}\n\n.flex-align-items-center {\n  align-items: center;\n}\n\n.flex-align-items-end {\n  align-items: flex-end;\n}\n\n.flex-justify-content-end {\n  justify-content: end;\n}\n\n.flex-justify-content-center {\n  justify-content: center;\n}\n\n.flex-justify-content-around {\n  justify-content: space-around;\n}\n\n.flex-justify-content-between {\n  justify-content: space-between;\n}\n\n.flex-justify-content-evenly {\n  justify-content: space-evenly;\n}\n\n.flex-item {\n  padding: 0.5rem;\n  flex: 0 0 auto;\n}\n\n.flex-no-wrap {\n  flex-wrap: nowrap;\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,OAAO;CAChB;;;AAED,AAAA,wBAAwB,CAAC;EACvB,WAAW,EAAE,MAAM;CACpB;;;AAED,AAAA,qBAAqB,CAAC;EACpB,WAAW,EAAE,QAAQ;CACtB;;;AAED,AAAA,yBAAyB,CAAC;EACxB,eAAe,EAAE,GAAG;CACrB;;;AAED,AAAA,4BAA4B,CAAC;EAC3B,eAAe,EAAE,MAAM;CACxB;;;AAED,AAAA,4BAA4B,CAAC;EAC3B,eAAe,EAAE,YAAY;CAC9B;;;AAED,AAAA,6BAA6B,CAAC;EAC5B,eAAe,EAAE,aAAa;CAC/B;;;AAED,AAAA,4BAA4B,CAAC;EAC3B,eAAe,EAAE,YAAY;CAC9B;;;AAED,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,MAAM;EACf,IAAI,EAAE,QAAQ;CACf;;;AAED,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,MAAM;CAClB"
+}
